@@ -337,4 +337,32 @@ span {
     justify-content: center;
     align-items: center;
   }
+  .choose-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4rem;
+  }
+  .about-container {
+    max-width: 100%;
+    margin-top: 135rem;
+  }
+  .testimonial-box {
+    max-width: 100%;
+  }
+  .find {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .find-container-holder {
+    max-width: 100%;
+    width: 30rem;
+  }
+  .news-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

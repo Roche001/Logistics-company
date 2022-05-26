@@ -418,20 +418,22 @@ const Home = () => {
           </div>
         </div>
         <div className="find-container-a">
-          <h3>Get in Touch</h3>
-          <div className="input">
-            <input type="Name" name="Name" placeholder="Name" required />
-            <input type="Email" name="Email" placeholder="Email" required />
-            <input type="Phone" name="Phone" placeholder="Phone" required />
-            <textarea
-              name="Message"
-              id="Message"
-              cols="20"
-              rows="2"
-              placeholder="Leave Message"
-            ></textarea>
+          <div className="find-container-holder">
+            <h3>Get in Touch</h3>
+            <div className="input">
+              <input type="Name" name="Name" placeholder="Name" required />
+              <input type="Email" name="Email" placeholder="Email" required />
+              <input type="Phone" name="Phone" placeholder="Phone" required />
+              <textarea
+                name="Message"
+                id="Message"
+                cols="20"
+                rows="2"
+                placeholder="Leave Message"
+              ></textarea>
+            </div>
+            <div className="button">Send Message</div>
           </div>
-          <div className="button">Send Message</div>
         </div>
       </div>
       <div className="news">
