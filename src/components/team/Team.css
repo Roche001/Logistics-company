@@ -1,0 +1,60 @@
+.team {
+  background-image: url("../../images/glance.jpeg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-header {
+  margin-left: 10rem;
+}
+.team-text {
+  margin-left: 20rem;
+  margin: 4rem;
+}
+.team-header h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.team-members-social {
+  display: flex;
+  flex-direction: row;
+}
+.team-members-social a {
+  color: #000;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: 400ms;
+  cursor: pointer;
+}
+.team-members-social a:hover {
+  color: #e53935;
+  transform: scale(1.2);
+}
+.team-members-text img {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  transition: 400ms;
+}
+.team-members-text h4 {
+  cursor: pointer;
+  transition: 400ms;
+}
+.team-members-text h4:hover {
+  color: #e53935;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.team-members {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}

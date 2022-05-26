@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&family=Poppins:ital,wght@0,300;0,600;0,700;1,400&family=Satisfy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  
+  --container-width-lg: 75%;
+  --container-width-md:86%
+  --container-width-sm:90%
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FDFDFD;
+  color: #000000;
+  line-height: 1.7;
+  font-weight: 400;
+
+}
+@media screen and (max-width:1024px) {
+  
+  
+}

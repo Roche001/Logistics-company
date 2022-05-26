@@ -1,0 +1,59 @@
+.services {
+  background-image: url("../../images/lorry.jpg");
+  height: 40vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-header {
+  color: #fff;
+  font-weight: 600;
+}
+.logistics-services {
+  margin-left: 30rem;
+}
+.logistics-services p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.logistics-services small {
+  color: #9e9e9e;
+}
+.offering-container-one {
+  margin-left: 13rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.offering-container-text {
+  margin: 2rem;
+}
+.offering-container-img img {
+  width: 30rem;
+  height: 20rem;
+}
+.btn {
+  background: #9e9e9e;
+  height: 4rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #f44336;
+  color: #fff;
+}
+.offering-container-text small {
+  color: #9e9e9e;
+}
+.offering-container-text h3 {
+  color: #f44336;
+}

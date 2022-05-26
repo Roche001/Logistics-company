@@ -1,0 +1,85 @@
+.about-header {
+  background-image: url("../../images/truck.jpg");
+  height: 50vh;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-header-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-header-one p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.about-header-one h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.mission {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.mission-global {
+  margin: 2rem;
+}
+.mission-global h3 {
+  text-transform: capitalize;
+  color: #f44336;
+}
+.mission-global h3:hover {
+  text-decoration: underline;
+}
+.mission-global h5 {
+  cursor: pointer;
+  transition: 400ms;
+}
+.mission-global h5:hover {
+  color: #f44336;
+}
+.mission-global p {
+  color: #bdbdbd;
+}
+.glance {
+  background-image: url("../../images/glance.jpeg");
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.glance-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.glance-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 2rem;
+}
+.glance-about-img {
+  background: #fff;
+  height: 30rem;
+  width: 30rem;
+  margin: 4rem;
+  border-radius: 0.5rem;
+}
+.glance-about-para p {
+  color: #fff;
+  font-weight: 600;
+}

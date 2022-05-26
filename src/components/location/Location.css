@@ -1,0 +1,65 @@
+.location {
+  background-image: url("../../images/Rename.png");
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-header h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.location-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+}
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.call-two {
+  width: 10rem;
+  height: 4rem;
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 400ms;
+  border: 2px #000 solid;
+}
+.call-two:hover {
+  background: #9e9e9e;
+  border: #000 2px dotted;
+  border-radius: 0.2rem;
+}
+.call-two a {
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: 400ms;
+}
+.call-two a:hover {
+  color: #fff;
+}
+.click-up {
+  width: 10rem;
+  height: 4rem;
+  background: #f44336;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 400ms;
+  margin: rem;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+}

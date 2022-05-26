@@ -1,0 +1,331 @@
+#home {
+  max-width: 100vw;
+}
+.home-photo {
+  height: 100vh;
+  background-image: url("../../images/truck.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.overlay {
+  height: 100vh;
+  width: 100%;
+  color: #191919;
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
+}
+.home-photo-def h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.home-photo-def p {
+  color: #b0b0b0;
+  font-weight: 700;
+}
+.home-photo-def small {
+  color: #b0b0b0;
+  font-weight: 700;
+}
+.choose-us {
+  display: flex;
+  flex-direction: row;
+  padding: 6rem;
+}
+.selection-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.selection-a h4 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.choose-a {
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+.choose-a p {
+  color: #b0b0b0;
+}
+.choose-a h4 {
+  margin-top: -2rem;
+  font-weight: 550;
+}
+.choose-a span {
+  margin-left: 4rem;
+  color: #c62828;
+  font-size: 3rem;
+}
+.services {
+  background: #f5f5f5;
+  height: 85vh;
+}
+.services h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.services-one {
+  width: 20rem;
+  height: 20rem;
+  z-index: 10;
+  transition: 400ms;
+  overflow: hidden;
+  cursor: pointer;
+}
+.services-one img {
+  width: 20rem;
+  height: 20rem;
+  transition: 400ms;
+}
+.services-one:hover {
+  transform: rotate(8deg);
+}
+
+.road h5 {
+  width: 12rem;
+  height: 4rem;
+  background: #c62828;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: -5rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.service-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20rem;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.about-container {
+  background-image: url("../../images/Africa.png");
+  height: 60vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.about-container h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 10rem;
+}
+.about-container-p {
+  width: 40rem;
+  margin-left: 6rem;
+}
+.about-container-p p {
+  color: #191919;
+}
+.about-container-p small {
+  color: #b0b0b0;
+}
+.about-container-bg {
+  width: 40rem;
+  padding: 6rem;
+  margin-top: -3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-container-def h4 {
+  font-size: 2rem;
+  font-size: 800;
+  color: #c62828;
+}
+.testimonial-box {
+  background: #b0b0b0;
+  height: 70vh;
+}
+.testimonial-box-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.review-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.review-box-img {
+  height: 18rem;
+  width: 14rem;
+}
+.review-box-img img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  transition: 400ms;
+  margin-left: 2rem;
+}
+.review-box-img img:hover {
+  transform: scale(1.2);
+}
+.reveiw-box-name {
+  margin-top: -8rem;
+}
+.comment {
+  text-align: center;
+}
+.stars {
+  color: #ffeb3b;
+  font-size: 1.5rem;
+}
+.job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../images/lorry.jpg");
+  height: 60vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+.job h3 {
+  color: #f5f5f5;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-left: 4rem;
+}
+.job p {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 4rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c62828;
+  height: 4rem;
+  width: 10rem;
+  color: #f5f5f5;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal h4 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.input input {
+  height: 3rem;
+  width: 30rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+}
+.input textarea {
+  width: 30rem;
+  margin: 0.5rem;
+}
+span {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 12rem;
+}
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  color: #191919;
+}
+.find {
+  background: #b0b0b0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.find-container {
+  margin: 10rem;
+}
+.phones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.phones p {
+  color: #b71c1c;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.phones p:hover {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+.find-container-a {
+  background: #f3f3f3;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.news-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-container {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.news-container-one {
+  width: 30rem;
+  height: 30rem;
+  margin: 2rem;
+}
+.news-container-one img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  transition: 400ms;
+  overflow: hidden;
+}
+.news-container-one img:hover {
+  transform: scale(1.2);
+}
+.news-container-one h4 {
+  cursor: pointer;
+}
+.news-container-one h4:hover {
+  color: #b71c1c;
+}

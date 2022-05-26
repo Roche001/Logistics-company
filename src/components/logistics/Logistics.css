@@ -1,0 +1,98 @@
+.logistics {
+  background-image: url("../../images/truck.jpg");
+  height: 40vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logistics-header {
+  color: #fff;
+}
+.logistics-header h3 {
+  font-size: 1.5rem;
+}
+.logistics-section-one-list span {
+  color: #f44336;
+  font-size: 1rem;
+}
+
+.logistics-section {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.logistics-section-one {
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.logistics-section-one img {
+  border-radius: 0.5rem;
+  width: 30rem;
+  transition: 400ms;
+}
+.logistics-section-one img:hover {
+  transform: scale(1.2);
+}
+.logistics-section-one p {
+  font-weight: 800;
+}
+.logistics-section-one small {
+  color: #bdbdbd;
+}
+.logistics-section-one-list {
+  color: #bdbdbd;
+  margin-left: -12rem;
+  cursor: pointer;
+}
+.logistics-section-one-list h5:hover {
+  color: #f44336;
+}
+.logistics-section-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 4rem;
+}
+.logistics-section-two-text {
+  margin: 4rem;
+}
+.logistics-section-two-text small {
+  color: #9e9e9e;
+}
+.logistics-section-two-img img {
+  width: 30rem;
+  border-radius: 0.5rem;
+  transition: 400ms;
+}
+.logistics-section-two-img img:hover {
+  transform: scale(1.2);
+}
+.logistics-section-three-img img {
+  width: 30rem;
+  border-radius: 0.5rem;
+  transition: 400ms;
+}
+.logistics-section-three-img img:hover {
+  transform: scale(1.2);
+}
+.logistics-section-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.logistics-section-three-text {
+  margin: 4rem;
+}
+.logistics-section-three-text small {
+  color: #bdbdbd;
+}

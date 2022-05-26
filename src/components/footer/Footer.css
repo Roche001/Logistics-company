@@ -1,0 +1,116 @@
+#footer {
+}
+.container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #575757;
+  height: 20vh;
+}
+.reach-out {
+  margin: 4rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.us {
+  margin: 4rem;
+  background: #f44336;
+  width: 10rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+}
+.us a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 400ms;
+  text-decoration: none;
+}
+
+.us a:hover {
+  transform: scale(1.2);
+}
+.container-two {
+  background: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 50vh;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: -60rem;
+}
+.picture2 h3,
+h6 {
+  color: #bdbdbd;
+}
+.picture3 p {
+  margin-left: 14rem;
+  margin-top: -10rem;
+}
+.logo-img {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.logo-img img {
+  background: #fff;
+  color: #fff;
+  height: 8rem;
+}
+.picture {
+  padding: 2rem;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+}
+.information p {
+  color: #575757;
+}
+.information h4 {
+  color: #fff;
+}
+.spanner {
+  cursor: pointer;
+}
+.spanner h5:hover {
+  color: #f44336;
+}
+.information h5 {
+  color: #bdbdbd;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.phone-number h4 {
+  color: #fff;
+}
+.phone-number p {
+  color: #575757;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+}
+.social a {
+  color: #f44336;
+  font-size: 1.2rem;
+  transition: 400ms;
+}
+.social a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}

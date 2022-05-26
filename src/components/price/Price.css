@@ -1,0 +1,46 @@
+.pricing {
+  background-image: url("../../images/calc.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-header h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.pricing-header {
+  margin-left: 20rem;
+}
+.price-container {
+  background: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.price-categories {
+  width: 20rem;
+  height: 30rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  border-radius: 0.3rem;
+}
+.price-categories h3 {
+  color: #f44336;
+  font-size: 1.2rem;
+}
+.price-categories p {
+  color: #9e9e9e;
+}
+.button:hover {
+  background: #9e9e9e;
+}
