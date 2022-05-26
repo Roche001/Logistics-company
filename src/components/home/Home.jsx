@@ -79,7 +79,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="services">
+      <div className="company">
         <h4>Our Services</h4>
         <div className="service-items">
           <div className="services-one">
