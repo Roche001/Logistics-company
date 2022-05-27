@@ -17,13 +17,17 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 4rem;
+  margin: 6rem;
 }
 .location-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.location-bg {
+  display: flex;
+  flex-direction: row;
 }
 .call-two {
   width: 10rem;
@@ -61,5 +65,11 @@
   transition: 400ms;
   margin: rem;
   border-radius: 0.2rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+}
+.call-three a {
+  color: #fff;
+}
+.google-maps {
+  width: 100%;
 }
