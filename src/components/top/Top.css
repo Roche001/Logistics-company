@@ -23,6 +23,11 @@
 
 .link {
   text-decoration: none;
+  color: #fff;
+}
+.link:hover {
+  text-decoration: overline;
+  color: #e0453a;
 }
 
 #active {
