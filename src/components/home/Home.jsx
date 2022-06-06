@@ -21,7 +21,7 @@ const Home = () => {
     setModal(!modal);
   };
   return (
-    <section id="home">
+    <section id="home" className="container-fluid">
       <div className="home-photo">
         <div className="overlay"></div>
         <div className="home-photo-def">
@@ -30,7 +30,7 @@ const Home = () => {
           <small>Logistic Solutions for Your Successful Business</small>
         </div>
       </div>
-      <div className="selection">
+      <div className="selection row">
         <div className="selection-a">
           <h4>Why Choose Us?</h4>
         </div>
