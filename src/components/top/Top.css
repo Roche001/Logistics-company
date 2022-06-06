@@ -23,15 +23,6 @@
 
 .link {
   text-decoration: none;
-  color: #020c1b;
-  padding: 1rem;
-  transition: 8ms;
-  font-weight: 600;
-}
-.link:hover {
-  color: #db544a;
-  text-decoration: overline;
-  font-weight: 600;
 }
 
 #active {
