@@ -14,14 +14,18 @@ const Top = () => {
           <Nav className="me-auto">
             <nav className="navbar">
               <ul className="nav-items">
-                <Link
-                  to="/"
-                  className="link"
-                  onClick={() => setActiveNav("/")}
-                  id={activeNav === "/" ? "active" : ""}
-                >
-                  <li>HOME</li>
-                </Link>
+                <Nav.Link>
+                  {" "}
+                  <Link
+                    to="/"
+                    className="link"
+                    onClick={() => setActiveNav("/")}
+                    id={activeNav === "/" ? "active" : ""}
+                  >
+                    <li>HOME</li>
+                  </Link>
+                </Nav.Link>
+
                 <Link
                   to="/About"
                   className="link"
