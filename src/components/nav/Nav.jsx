@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
