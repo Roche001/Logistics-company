@@ -29,7 +29,7 @@ const Home = () => {
           <small>Logistic Solutions for Your Successful Business</small>
         </div>
       </div>
-      <div className="selection row">
+      <div className="selection container-fluid">
         <div className="selection-a">
           <h4>Why Choose Us?</h4>
         </div>
