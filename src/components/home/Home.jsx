@@ -26,7 +26,6 @@ const Home = () => {
         <div className="overlay"></div>
         <div className="home-photo-def row">
           <h3> Andelles Logistics</h3>
-          <p>Reliable Trucking and Transportation Services.</p>
           <small>Logistic Solutions for Your Successful Business</small>
         </div>
       </div>
