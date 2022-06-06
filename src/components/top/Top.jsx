@@ -1,10 +1,10 @@
 import React from "react";
-import "./Nav.css";
+import "./Top.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Nav = () => {
+const Top = () => {
   const [activeNav, setActiveNav] = useState("/");
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -80,4 +80,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Top;
