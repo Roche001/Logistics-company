@@ -22,7 +22,7 @@ const Home = () => {
   };
   return (
     <section id="home" className="container-fluid">
-      <div className="home-photo">
+      <div className="home-photo row">
         <div className="overlay"></div>
         <div className="home-photo-def">
           <h3> Andelles Logistics</h3>
