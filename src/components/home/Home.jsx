@@ -22,9 +22,9 @@ const Home = () => {
   };
   return (
     <section id="home" className="container-fluid">
-      <div className="home-photo row">
+      <div className="home-photo ">
         <div className="overlay"></div>
-        <div className="home-photo-def">
+        <div className="home-photo-def row">
           <h3> Andelles Logistics</h3>
           <p>Reliable Trucking and Transportation Services.</p>
           <small>Logistic Solutions for Your Successful Business</small>
