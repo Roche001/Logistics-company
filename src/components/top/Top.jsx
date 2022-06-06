@@ -8,7 +8,7 @@ const Top = () => {
   const [activeNav, setActiveNav] = useState("/");
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container-fluid>
+      <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
