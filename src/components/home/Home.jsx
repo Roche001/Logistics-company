@@ -29,13 +29,13 @@ const Home = () => {
           <small>Logistic Solutions for Your Successful Business</small>
         </div>
       </div>
-      <div className="selection container-fluid">
-        <div className="selection-a">
+      <div className="selection row">
+        <div className="selection-a row">
           <h4>Why Choose Us?</h4>
         </div>
 
-        <div className="choose-us">
-          <div className="choose-a">
+        <div className="choose-us row">
+          <div className="choose-a col-sm-3 col-md-4">
             <span>
               <ImRocket />
             </span>
@@ -45,7 +45,7 @@ const Home = () => {
               to have your cargo delivered fast and secure.
             </p>
           </div>
-          <div className="choose-a">
+          <div className="choose-a col-sm-3 col-md-4">
             <span>
               <RiCustomerServiceFill />
             </span>
@@ -55,7 +55,7 @@ const Home = () => {
               to track your cargo on its way.
             </p>
           </div>
-          <div className="choose-a">
+          <div className="choose-a col-sm-3 col-md-4">
             <span>
               {" "}
               <RiSecurePaymentFill />
@@ -66,7 +66,7 @@ const Home = () => {
               services on the highest security level.
             </p>
           </div>
-          <div className="choose-a">
+          <div className="choose-a col-sm-3 col-md-4">
             <span>
               <RiPriceTagFill />
             </span>
