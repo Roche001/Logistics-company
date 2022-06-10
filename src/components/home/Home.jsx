@@ -39,7 +39,7 @@ const Home = () => {
             <span>
               <ImRocket />
             </span>
-            <h4>Quick Delivery</h4>
+            <h4>Quicker Delivery</h4>
             <p>Fast and secure delivery.</p>
           </div>
           <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
