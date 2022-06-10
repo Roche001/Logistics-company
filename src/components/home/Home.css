@@ -52,11 +52,11 @@
   font-weight: 800;
 }
 .choose-a {
-  margin-top: -4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  margin: 0.5rem;
+  text-align: center;
 }
 .choose-a p {
   color: #b0b0b0;

@@ -40,20 +40,14 @@ const Home = () => {
               <ImRocket />
             </span>
             <h4>Quick Delivery</h4>
-            <p>
-              Cooperating with Andelles Logistics Solutions you are guaranteed
-              to have your cargo delivered fast and secure.
-            </p>
+            <p>Have your cargo delivered fast and secure.</p>
           </div>
           <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               <RiCustomerServiceFill />
             </span>
             <h4>24/7 Support</h4>
-            <p>
-              We provide you with 24/7 support, which gives you an opportunity
-              to track your cargo on its way.
-            </p>
+            <p>Track your cargo on its way.</p>
           </div>
           <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
@@ -61,26 +55,23 @@ const Home = () => {
               <RiSecurePaymentFill />
             </span>
             <h4>Secured Services</h4>
-            <p>
-              We provide all our clients with professional transportation
-              services on the highest security level.
-            </p>
+            <p>The highest security level.</p>
           </div>
           <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               <RiPriceTagFill />
             </span>
             <h4>Affordable Prices</h4>
-            <p>
-              We have the lowest prices on the market and offer affordable
-              solutions tailored to your business.
-            </p>
+            <p>Affordable solutions tailored to your business.</p>
           </div>
         </div>
       </div>
-      <div className="company">
-        <h4>Our Services</h4>
-        <div className="service-items">
+      <div className="company container-fluid">
+        <div className="row">
+          <h4>Our Services</h4>
+        </div>
+
+        <div className="service-items row">
           <div className="services-one">
             <img src="./assets/road1.jpeg" alt="road" />
             <div className="road">
