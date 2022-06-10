@@ -72,49 +72,49 @@ const Home = () => {
         </div>
 
         <div className="service-items row">
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road1.jpeg" alt="road" />
             <div className="road">
               <h5> Road Transportation </h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road2.jpeg" alt="road" />
             <div className="road">
               <h5> Sea Freight</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road3.jpeg" alt="road" />
             <div className="road">
               <h5> Air Freight</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road4.jpeg" alt="road" />
             <div className="road">
               <h5> Logistics Solutions</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road5.jpeg" alt="road" />
             <div className="road">
               <h5> Logistics Laboratory</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road6.jpeg" alt="road" />
             <div className="road">
               <h5> Warehousing Solutions</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road7.jpeg" alt="road" />
             <div className="road">
               <h5> Refrigerated LTL</h5>
             </div>
           </div>
-          <div className="services-one">
+          <div className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <img src="./assets/road8.jpeg" alt="road" />
             <div className="road">
               <h5> Truckload Services</h5>
