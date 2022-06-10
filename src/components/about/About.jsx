@@ -16,7 +16,11 @@ const About = () => {
         </div>
       </div>
       <div className="mission">
-        <div className="mission-global">
+        <div
+          className="mission-global"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <h3>0.1 GLOBAL</h3>
           <h5>We are distributing our services across the globe</h5>
           <p>
@@ -28,7 +32,11 @@ const About = () => {
             Europe and Asia.
           </p>
         </div>
-        <div className="mission-global">
+        <div
+          className="mission-global"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <h3>0.2 VISION</h3>
           <h5>We have a unique philosophy and protect it</h5>
           <p>
@@ -40,7 +48,11 @@ const About = () => {
             competition.
           </p>
         </div>
-        <div className="mission-global">
+        <div
+          className="mission-global"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <h3>0.3 MISSION</h3>
           <h5>We are adding value to each step of your supply chain</h5>
           <p>
