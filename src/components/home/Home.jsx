@@ -14,13 +14,18 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
-    AOS.init();
   };
+  AOS.init({
+    duration: 2000,
+  });
+
   return (
     <section id="home" className="container-fluid">
       <div className="home-photo ">
@@ -36,21 +41,30 @@ const Home = () => {
         </div>
 
         <div className="choose-us row">
-          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div
+            className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3"
+            data-aos="fade-up"
+          >
             <span>
               <ImRocket />
             </span>
             <h4>Quicker Delivery</h4>
             <p>Fast and secure delivery.</p>
           </div>
-          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div
+            className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3"
+            data-aos="fade-down"
+          >
             <span>
               <RiCustomerServiceFill />
             </span>
             <h4>24/7 Support</h4>
             <p>Track your cargo on its way.</p>
           </div>
-          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div
+            className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3"
+            data-aos="fade-up"
+          >
             <span>
               {" "}
               <RiSecurePaymentFill />
@@ -58,7 +72,10 @@ const Home = () => {
             <h4>Secured Services</h4>
             <p>The highest security level.</p>
           </div>
-          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div
+            className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3"
+            data-aos="fade-down"
+          >
             <span>
               <RiPriceTagFill />
             </span>
