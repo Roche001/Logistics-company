@@ -19,6 +19,7 @@ const Home = () => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
+    AOS.init();
   };
   return (
     <section id="home" className="container-fluid">
