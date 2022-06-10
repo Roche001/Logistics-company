@@ -40,7 +40,7 @@ const Home = () => {
               <ImRocket />
             </span>
             <h4>Quick Delivery</h4>
-            <p>Have your cargo delivered fast and secure.</p>
+            <p>Fast and secure delivery.</p>
           </div>
           <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
