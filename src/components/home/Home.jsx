@@ -62,7 +62,7 @@ const Home = () => {
               <RiPriceTagFill />
             </span>
             <h4>Affordable Prices</h4>
-            <p>Affordable solutions tailored to your business.</p>
+            <p>Affordable business solutions.</p>
           </div>
         </div>
       </div>
