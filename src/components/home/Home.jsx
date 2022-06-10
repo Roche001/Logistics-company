@@ -110,7 +110,7 @@ const Home = () => {
           </div>
           <div
             className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
+            data-aos="fade-right"
           >
             <img src="./assets/road3.jpeg" alt="road" />
             <div className="road">
@@ -119,7 +119,7 @@ const Home = () => {
           </div>
           <div
             className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
+            data-aos="fade-right"
           >
             <img src="./assets/road4.jpeg" alt="road" />
             <div className="road">
@@ -164,7 +164,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="about-container">
+      <div className="about-container" data-aos="flip-left">
         <h3>Who are We</h3>
         <div className="about-container-p">
           <p>
@@ -473,7 +473,7 @@ const Home = () => {
           <h2>Latest News</h2>
         </div>
         <div className="news-container">
-          <div className="news-container-one">
+          <div className="news-container-one" data-aos="fade-right">
             <img src="./assets/Scania.jpeg" alt="Lorry" />
             <h4>Fleet Operator Training</h4>
             <p>
@@ -482,7 +482,7 @@ const Home = () => {
             </p>
             <div className="button">Read More</div>
           </div>
-          <div className="news-container-one">
+          <div className="news-container-one" data-aos="fade-right">
             <img src="./assets/Scania2.jpeg" alt="Lorry" />
             <h4>Driver Training Program</h4>
             <p>
@@ -491,7 +491,7 @@ const Home = () => {
             </p>
             <div className="button">Read More</div>
           </div>
-          <div className="news-container-one">
+          <div className="news-container-one" data-aos="fade-right">
             <img src="./assets/Scania3.jpeg" alt="Lorry" />
             <h4>Driver Incentives</h4>
             <p>
