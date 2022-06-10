@@ -1,9 +1,14 @@
 import React from "react";
 import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
-    <section id="about">
+    <section id="about" data-aos="zoom-in">
       <div className="about-header">
         <div className="about-header-one">
           <p>Andelles Logistics Solutions </p>
