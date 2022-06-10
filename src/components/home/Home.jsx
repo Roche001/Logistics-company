@@ -35,7 +35,7 @@ const Home = () => {
         </div>
 
         <div className="choose-us row">
-          <div className="choose-a col-sm-1 col-md-3 col-lg-3 col-xl-3">
+          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               <ImRocket />
             </span>
@@ -45,7 +45,7 @@ const Home = () => {
               to have your cargo delivered fast and secure.
             </p>
           </div>
-          <div className="choose-a col-sm-1 col-md-3 col-lg-3 col-xl-3">
+          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               <RiCustomerServiceFill />
             </span>
@@ -55,7 +55,7 @@ const Home = () => {
               to track your cargo on its way.
             </p>
           </div>
-          <div className="choose-a col-sm-1 col-md-3 col-lg-3 col-xl-3">
+          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               {" "}
               <RiSecurePaymentFill />
@@ -66,7 +66,7 @@ const Home = () => {
               services on the highest security level.
             </p>
           </div>
-          <div className="choose-a col-sm-1 col-md-3 col-lg-3 col-xl-3">
+          <div className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <span>
               <RiPriceTagFill />
             </span>
