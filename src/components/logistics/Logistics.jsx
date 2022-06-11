@@ -1,10 +1,15 @@
 import React from "react";
 import "./Logistics.css";
 import { MdDoubleArrow } from "react-icons/md";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Logistics = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
-    <section id="logistics">
+    <section id="logistics" data-aos="fade-up-right">
       <div className="logistics">
         <div className="logistics-header">
           <p>Andelles Logistics Solutions</p>
