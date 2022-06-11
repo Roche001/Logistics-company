@@ -40,48 +40,50 @@ const Home = () => {
           <h4>Why Choose Us?</h4>
         </div>
 
-        <div className="choose-us">
-          <div className="row">
-            <div className=" col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-              <div className="choose-a " data-aos="fade-up">
-                <span>
-                  <ImRocket />
-                </span>
-                <h4>Quicker Delivery</h4>
-                <p>Fast and secure delivery.</p>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-              <div className="choose-a " data-aos="fade-down">
-                <span>
-                  <RiCustomerServiceFill />
-                </span>
-                <h4>24/7 Support</h4>
-                <p>Track your cargo on its way.</p>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-              <div className="choose-a " data-aos="fade-up">
-                <span>
-                  {" "}
-                  <RiSecurePaymentFill />
-                </span>
-                <h4>Secured Services</h4>
-                <p>The highest security level.</p>
-              </div>
-            </div>
-            <div lassName="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-              <div
-                className="choose-a col-sm-4 col-md-3 col-lg-3 col-xl-3"
-                data-aos="fade-down"
-              >
-                <span>
-                  <RiPriceTagFill />
-                </span>
-                <h4>Affordable Prices</h4>
-                <p>Affordable business solutions.</p>
-              </div>
-            </div>
+        <div className="choose-us row">
+          <div
+            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 "
+            data-aos="fade-up"
+          >
+            <span>
+              <ImRocket />
+            </span>
+            <h4>Quicker Delivery</h4>
+            <p>Fast and secure delivery.</p>
+          </div>
+
+          <div
+            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+            data-aos="fade-down"
+          >
+            <span>
+              <RiCustomerServiceFill />
+            </span>
+            <h4>24/7 Support</h4>
+            <p>Track your cargo on its way.</p>
+          </div>
+
+          <div
+            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+            data-aos="fade-up"
+          >
+            <span>
+              {" "}
+              <RiSecurePaymentFill />
+            </span>
+            <h4>Secured Services</h4>
+            <p>The highest security level.</p>
+          </div>
+
+          <div
+            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+            data-aos="fade-down"
+          >
+            <span>
+              <RiPriceTagFill />
+            </span>
+            <h4>Affordable Prices</h4>
+            <p>Affordable business solutions.</p>
           </div>
         </div>
       </div>
