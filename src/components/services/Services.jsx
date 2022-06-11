@@ -30,7 +30,7 @@ const Services = () => {
       </div>
       <div className="offerings-container">
         <div className="offering-container-one">
-          <div className="offering-container-img">
+          <div className="offering-container-img " data-aos="fade-right">
             <img src="./assets/road1.jpeg" alt="road" />
           </div>
           <div className="offering-container-text">
@@ -70,12 +70,12 @@ const Services = () => {
             </small>
             <div className="btn">Read More</div>
           </div>
-          <div className="offering-container-img">
+          <div className="offering-container-img" data-aos="fade-left">
             <img src="./assets/road2.jpeg" alt="road" />
           </div>
         </div>
         <div className="offering-container-one">
-          <div className="offering-container-img">
+          <div className="offering-container-img" data-aos="fade-right">
             <img src="./assets/road3.jpeg" alt="road" />
           </div>
           <div className="offering-container-text">
@@ -114,12 +114,12 @@ const Services = () => {
             </small>
             <div className="btn">Read More</div>
           </div>
-          <div className="offering-container-img">
+          <div className="offering-container-img" data-aos="fade-left">
             <img src="./assets/road4.jpeg" alt="road" />
           </div>
         </div>
         <div className="offering-container-one">
-          <div className="offering-container-img">
+          <div className="offering-container-img" data-aos="fade-right">
             <img src="./assets/road5.jpeg" alt="road" />
           </div>
           <div className="offering-container-text">
