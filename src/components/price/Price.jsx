@@ -1,10 +1,15 @@
 import React from "react";
 import "./Price.css";
 import { BsSlashLg } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Price = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
-    <section id="pricing">
+    <section id="pricing" data-aos="fade-up-right">
       <div className="pricing">
         <div className="pricing-header">
           <h4>Our Competitive Prices</h4>
