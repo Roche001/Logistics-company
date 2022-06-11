@@ -6,8 +6,13 @@ import {
   GoogleMap,
   Marker,
 } from "react-google-maps";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Location = () => {
+  AOS.init({
+    duration: 2000,
+  });
   const MapWithAMarker = withScriptjs(
     withGoogleMap((props) => (
       <GoogleMap
@@ -22,7 +27,7 @@ const Location = () => {
     ))
   );
   return (
-    <section id="location">
+    <section id="location" data-aos="zoom-in-up">
       <div className="location">
         <div className="location-header">
           {" "}

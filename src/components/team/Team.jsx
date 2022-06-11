@@ -12,7 +12,7 @@ const Team = () => {
     duration: 2000,
   });
   return (
-    <section id="team" data-aos="fade-up-right">
+    <section id="team" data-aos="zoom-in-up">
       <div className="team">
         <div className="team-header">
           <h4>Our Team</h4>

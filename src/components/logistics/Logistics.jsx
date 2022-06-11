@@ -9,7 +9,7 @@ const Logistics = () => {
     duration: 2000,
   });
   return (
-    <section id="logistics" data-aos="fade-up-right">
+    <section id="logistics" data-aos="zoom-in-up">
       <div className="logistics">
         <div className="logistics-header">
           <p>Andelles Logistics Solutions</p>
