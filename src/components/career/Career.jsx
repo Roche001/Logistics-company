@@ -4,10 +4,15 @@ import { BsFillCalendar2DateFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 import { BsClockHistory } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Career = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
-    <section>
+    <section data-aos="fade-up-right">
       <div className="career">
         <div className="career-header">
           <h3>Career Opportunities</h3>
