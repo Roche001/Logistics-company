@@ -40,6 +40,7 @@
 }
 .mission-global h3:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 .mission-global h5 {
   cursor: pointer;
@@ -71,6 +72,8 @@
   align-items: center;
   color: #fff;
   padding: 2rem;
+  color: #f44336;
+  cursor: pointer;
 }
 .glance-about-img {
   background: #fff;

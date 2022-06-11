@@ -27,7 +27,7 @@ const Home = () => {
   });
 
   return (
-    <section id="home" className="container-fluid">
+    <section id="home" className="container-fluid" data-aos="flip-left">
       <div className="home-photo ">
         <div className="overlay"></div>
         <div className="home-photo-def row">
