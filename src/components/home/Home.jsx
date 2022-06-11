@@ -40,7 +40,7 @@ const Home = () => {
           <h4>Why Choose Us?</h4>
         </div>
 
-        <div className="choose-us padding">
+        <div className="choose-us">
           <div className="row">
             <div className=" col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div className="choose-a " data-aos="fade-up">
