@@ -4,10 +4,15 @@ import { BsFacebook } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Team = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
-    <section id="team">
+    <section id="team" data-aos="fade-up-right">
       <div className="team">
         <div className="team-header">
           <h4>Our Team</h4>
