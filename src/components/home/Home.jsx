@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import TextField from "@mui/material/TextField";
+import { TextField } from "@mui/material";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -36,6 +36,7 @@ const Home = () => {
           <small>Logistic Solutions for Your Successful Business</small>
         </div>
       </div>
+
       <div className="selection container-fluid">
         <div className="selection-a row">
           <h4>Why Choose Us?</h4>
@@ -475,7 +476,7 @@ const Home = () => {
                 id="outlined-basic"
                 label="Phone"
                 variant="outlined"
-                className="textfield"
+                className="field"
               />
 
               <textarea
