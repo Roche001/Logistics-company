@@ -16,6 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import TextField from "@mui/material/TextField";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -40,9 +41,9 @@ const Home = () => {
           <h4>Why Choose Us?</h4>
         </div>
 
-        <div className="choose-us row">
+        <div className="choose-us row container-fluid" text-center>
           <div
-            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 "
+            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 "
             data-aos="fade-up"
           >
             <span>
@@ -404,6 +405,7 @@ const Home = () => {
             <h4>Want to Get a Free Consultation? Send us a request.</h4>
             <div className="input">
               <input type="Name" name="Name" placeholder="Name" required />
+
               <input type="Email" name="Email" placeholder="Email" required />
               <input type="Phone" name="Phone" placeholder="Phone" required />
               <textarea
@@ -456,9 +458,26 @@ const Home = () => {
           <div className="find-container-holder">
             <h3>Get in Touch</h3>
             <div className="input">
-              <input type="Name" name="Name" placeholder="Name" required />
-              <input type="Email" name="Email" placeholder="Email" required />
-              <input type="Phone" name="Phone" placeholder="Phone" required />
+              <TextField
+                id="outlined-basic"
+                label="Name"
+                variant="outlined"
+                className="textfield"
+              />
+              <TextField
+                id="outlined-basic"
+                label="E-Mail"
+                variant="outlined"
+                className="textfield"
+              />
+
+              <TextField
+                id="outlined-basic"
+                label="Phone"
+                variant="outlined"
+                className="textfield"
+              />
+
               <textarea
                 name="Message"
                 id="Message"
