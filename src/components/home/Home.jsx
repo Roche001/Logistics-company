@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { TextField, List, ListItem } from "@mui/material";
+import { TextField, List, ListItem, TextareaAutosize } from "@mui/material";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -27,9 +27,9 @@ const Home = () => {
     duration: 2000,
   });
   const style = {
-    width: "100%",
-    maxWidth: 500,
-    bgcolor: "background.paper",
+    width: "20rem",
+    maxWidth: 600,
+    bgcolor: "#f3f3f3",
   };
 
   return (
@@ -464,27 +464,25 @@ const Home = () => {
           <h3>Get in Touch</h3>
 
           <List sx={style} component="nav" aria-label="mailbox folders">
-            <ListItem button divider>
+            <ListItem button>
               <TextField id="outlined-basic" label="Name" variant="outlined" />
             </ListItem>
-            <ListItem button divider>
+            <ListItem button>
               <TextField
                 id="outlined-basic"
                 label="E-Mail"
                 variant="outlined"
               />
             </ListItem>
-            <ListItem button divider>
+            <ListItem button>
               <TextField id="outlined-basic" label="Phone" variant="outlined" />
             </ListItem>
-            <ListItem button divider>
-              <textarea
-                name="Message"
-                id="Message"
-                cols="20"
-                rows="2"
+            <ListItem button>
+              <TextareaAutosize
+                aria-label="empty textarea"
                 placeholder="Leave Message"
-              ></textarea>
+                style={{ width: 245 }}
+              />
             </ListItem>
           </List>
 
