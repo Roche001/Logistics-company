@@ -95,6 +95,7 @@
   width: 20rem;
   height: 20rem;
   transition: 400ms;
+  margin: 0.5rem;
 }
 .services-one:hover {
   transform: rotate(8deg);
