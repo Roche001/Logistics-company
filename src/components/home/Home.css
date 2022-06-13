@@ -112,13 +112,7 @@
   z-index: 10;
   cursor: pointer;
 }
-.service-items {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 20rem;
-  margin-top: 2rem;
-  gap: 1rem;
-}
+
 .about-container {
   background-image: url("../../images/Africa.png");
   height: 60vh;
