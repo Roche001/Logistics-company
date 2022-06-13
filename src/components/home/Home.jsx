@@ -99,41 +99,43 @@ const Home = () => {
           <h4>Our Services</h4>
         </div>
 
-        <div className="service-items row">
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-right"
-          >
-            <img src="./assets/road1.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Road Transportation </h5>
+        <div className="service-items">
+          <div className="row">
+            <div
+              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              data-aos="fade-right"
+            >
+              <img src="./assets/road1.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Road Transportation </h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-right"
-          >
-            <img src="./assets/road2.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Sea Freight</h5>
+            <div
+              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              data-aos="fade-right"
+            >
+              <img src="./assets/road2.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Sea Freight</h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-right"
-          >
-            <img src="./assets/road3.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Air Freight</h5>
+            <div
+              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              data-aos="fade-right"
+            >
+              <img src="./assets/road3.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Air Freight</h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-right"
-          >
-            <img src="./assets/road4.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Logistics Solutions</h5>
+            <div
+              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              data-aos="fade-right"
+            >
+              <img src="./assets/road4.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Logistics Solutions</h5>
+              </div>
             </div>
           </div>
           <div
@@ -174,7 +176,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="about-container" data-aos="flip-left">
+      <div className="about-container container-fluid" data-aos="flip-left">
         <h3>Who are We</h3>
         <div className="about-container-p">
           <p>
