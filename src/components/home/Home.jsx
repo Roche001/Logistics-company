@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { TextField, Box } from "@mui/material";
+import { TextField, List, ListItem } from "@mui/material";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -26,6 +26,11 @@ const Home = () => {
   AOS.init({
     duration: 2000,
   });
+  const style = {
+    width: "100%",
+    maxWidth: 500,
+    bgcolor: "background.paper",
+  };
 
   return (
     <section id="home" className="container-fluid" data-aos="flip-left">
@@ -456,37 +461,34 @@ const Home = () => {
           </div>
         </div>
         <div className="find-container-a">
-          <div className="find-container-holder">
-            <h3>Get in Touch</h3>
-            <div className="input">
-              <Box
-                component="form"
-                sx={{
-                  "& > :not(style)": { m: 2, width: "10rem" },
-                }}
-                noValidate
-                autoComplete="off"
-              >
-                <TextField
-                  id="outlined-basic"
-                  label="Name"
-                  variant="outlined"
-                  className="textfield"
-                />
-                <TextField
-                  id="outlined-basic"
-                  label="E-Mail"
-                  variant="outlined"
-                  className="textfield"
-                />
+          <h3>Get in Touch</h3>
 
-                <TextField
-                  id="outlined-basic"
-                  label="Phone"
-                  variant="outlined"
-                  className="field"
-                />
-              </Box>
+          <List sx={style} component="nav" aria-label="mailbox folders">
+            <ListItem button divider>
+              <TextField
+                id="outlined-basic"
+                label="Name"
+                variant="outlined"
+                className="textfield"
+              />
+            </ListItem>
+            <ListItem button divider>
+              <TextField
+                id="outlined-basic"
+                label="E-Mail"
+                variant="outlined"
+                className="textfield"
+              />
+            </ListItem>
+            <ListItem button divider>
+              <TextField
+                id="outlined-basic"
+                label="Phone"
+                variant="outlined"
+                className="field"
+              />
+            </ListItem>
+            <ListItem button divider>
               <textarea
                 name="Message"
                 id="Message"
@@ -494,9 +496,10 @@ const Home = () => {
                 rows="2"
                 placeholder="Leave Message"
               ></textarea>
-            </div>
-            <div className="button">Send Message</div>
-          </div>
+            </ListItem>
+          </List>
+
+          <div className="button">Send Message</div>
         </div>
       </div>
       <div className="news">
