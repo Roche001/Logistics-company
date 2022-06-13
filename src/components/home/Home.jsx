@@ -182,8 +182,8 @@ const Home = () => {
         <div className="row">
           <h3>Who are We</h3>
         </div>
-        <div className="about-container-p row">
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md- col-sm-12 col-xs-12">
+        <div className="about-container-p container-fluid row">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <p>
               Andelles Logistics Solutions is a worldwide transport and
               logistics company and provides added-value services in the areas
@@ -191,7 +191,7 @@ const Home = () => {
               forwarding services.
             </p>
           </div>
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md- col-sm-12 col-xs-12">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <small>
               As a fully integrated transport and logistics provider, Andelles
               Logistics Solutions is able to make your logistics network more
