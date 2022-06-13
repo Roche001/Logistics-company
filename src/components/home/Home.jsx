@@ -99,7 +99,7 @@ const Home = () => {
           <h4>Our Services</h4>
         </div>
 
-        <div className="service-items">
+        <div className="service-items container-fluid">
           <div className="row">
             <div
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
@@ -137,7 +137,8 @@ const Home = () => {
                 <h5> Logistics Solutions</h5>
               </div>
             </div>
-
+          </div>
+          <div className="row">
             <div
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-left"
