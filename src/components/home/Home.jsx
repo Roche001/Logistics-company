@@ -102,7 +102,7 @@ const Home = () => {
         <div className="service-items">
           <div className="row">
             <div
-              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <img src="./assets/road1.jpeg" alt="road" className="img-fluid" />
@@ -111,7 +111,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <img src="./assets/road2.jpeg" alt="road" className="img-fluid" />
@@ -120,7 +120,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <img src="./assets/road3.jpeg" alt="road" className="img-fluid" />
@@ -129,7 +129,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <img src="./assets/road4.jpeg" alt="road" className="img-fluid" />
@@ -138,40 +138,42 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
-          >
-            <img src="./assets/road5.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Logistics Laboratory</h5>
+          <div className="row">
+            <div
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+              data-aos="fade-left"
+            >
+              <img src="./assets/road5.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Logistics Laboratory</h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
-          >
-            <img src="./assets/road6.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Warehousing Solutions</h5>
+            <div
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+              data-aos="fade-left"
+            >
+              <img src="./assets/road6.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Warehousing Solutions</h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
-          >
-            <img src="./assets/road7.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Refrigerated LTL</h5>
+            <div
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+              data-aos="fade-left"
+            >
+              <img src="./assets/road7.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Refrigerated LTL</h5>
+              </div>
             </div>
-          </div>
-          <div
-            className="services-one col-sm-4 col-md-3 col-lg-3 col-xl-3"
-            data-aos="fade-left"
-          >
-            <img src="./assets/road8.jpeg" alt="road" className="img-fluid" />
-            <div className="road">
-              <h5> Truckload Services</h5>
+            <div
+              className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
+              data-aos="fade-left"
+            >
+              <img src="./assets/road8.jpeg" alt="road" className="img-fluid" />
+              <div className="road">
+                <h5> Truckload Services</h5>
+              </div>
             </div>
           </div>
         </div>
