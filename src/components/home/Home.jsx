@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { TextField } from "@mui/material";
+import { TextField, Box } from "@mui/material";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -459,26 +459,34 @@ const Home = () => {
           <div className="find-container-holder">
             <h3>Get in Touch</h3>
             <div className="input">
-              <TextField
-                id="outlined-basic"
-                label="Name"
-                variant="outlined"
-                className="textfield"
-              />
-              <TextField
-                id="outlined-basic"
-                label="E-Mail"
-                variant="outlined"
-                className="textfield"
-              />
+              <Box
+                component="form"
+                sx={{
+                  "& > :not(style)": { m: 2, width: "10rem" },
+                }}
+                noValidate
+                autoComplete="off"
+              >
+                <TextField
+                  id="outlined-basic"
+                  label="Name"
+                  variant="outlined"
+                  className="textfield"
+                />
+                <TextField
+                  id="outlined-basic"
+                  label="E-Mail"
+                  variant="outlined"
+                  className="textfield"
+                />
 
-              <TextField
-                id="outlined-basic"
-                label="Phone"
-                variant="outlined"
-                className="field"
-              />
-
+                <TextField
+                  id="outlined-basic"
+                  label="Phone"
+                  variant="outlined"
+                  className="field"
+                />
+              </Box>
               <textarea
                 name="Message"
                 id="Message"
