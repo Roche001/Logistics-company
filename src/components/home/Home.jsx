@@ -465,28 +465,17 @@ const Home = () => {
 
           <List sx={style} component="nav" aria-label="mailbox folders">
             <ListItem button divider>
-              <TextField
-                id="outlined-basic"
-                label="Name"
-                variant="outlined"
-                className="textfield"
-              />
+              <TextField id="outlined-basic" label="Name" variant="outlined" />
             </ListItem>
             <ListItem button divider>
               <TextField
                 id="outlined-basic"
                 label="E-Mail"
                 variant="outlined"
-                className="textfield"
               />
             </ListItem>
             <ListItem button divider>
-              <TextField
-                id="outlined-basic"
-                label="Phone"
-                variant="outlined"
-                className="field"
-              />
+              <TextField id="outlined-basic" label="Phone" variant="outlined" />
             </ListItem>
             <ListItem button divider>
               <textarea
