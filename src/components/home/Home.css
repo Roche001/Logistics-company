@@ -83,6 +83,9 @@
   font-size: 1.5rem;
   font-weight: 700;
 }
+.service-items {
+  margin-left: 20rem;
+}
 .services-one {
   width: 20rem;
   height: 20rem;
