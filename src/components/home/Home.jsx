@@ -183,14 +183,30 @@ const Home = () => {
           <h3>Who are We</h3>
         </div>
         <div className="about-container-p container-fluid row">
-          <p col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12>
+          <p
+            col-xxl-12
+            col-xl-12
+            col-lg-12
+            col-md-12
+            col-sm-12
+            col-xs-12
+            text-align-center
+          >
             Andelles Logistics Solutions is a worldwide transport and logistics
             company and provides added-value services in the areas of road
             transport, air and sea freight, logistics and customs and forwarding
             services.
           </p>
 
-          <small col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12>
+          <small
+            col-xxl-12
+            col-xl-12
+            col-lg-12
+            col-md-12
+            col-sm-12
+            col-xs-12
+            text-align-center
+          >
             As a fully integrated transport and logistics provider, Andelles
             Logistics Solutions is able to make your logistics network more
             (cost-)efficient, whatever your business sector. Our goal is to
