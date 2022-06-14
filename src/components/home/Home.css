@@ -132,8 +132,13 @@
   width: 40rem;
 }
 .about-container-p p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #191919;
   font-weight: 600;
+  text-align: center;
 }
 .about-container-p small {
   color: #b0b0b0;

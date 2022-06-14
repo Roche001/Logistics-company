@@ -183,59 +183,56 @@ const Home = () => {
           <h3>Who are We</h3>
         </div>
         <div className="row">
-          <div className="col-sm-6 text-center">
-            <div className="about-container-p ">
-              <p
-                col-xxl-12
-                col-xl-12
-                col-lg-12
-                col-md-12
-                col-sm-12
-                col-xs-12
-                text-align-center
-              >
-                Andelles Logistics Solutions is a worldwide transport and
-                logistics company and provides added-value services in the areas
-                of road transport, air and sea freight, logistics and customs
-                and forwarding services.
-              </p>
+          <div className="about-container-p col-sm-6 text-center">
+            <p
+              col-xxl-12
+              col-xl-12
+              col-lg-12
+              col-md-12
+              col-sm-12
+              col-xs-12
+              text-align-center
+            >
+              Andelles Logistics Solutions is a worldwide transport and
+              logistics company and provides added-value services in the areas
+              of road transport, air and sea freight, logistics and customs and
+              forwarding services.
+            </p>
 
-              <small
-                col-xxl-12
-                col-xl-12
-                col-lg-12
-                col-md-12
-                col-sm-12
-                col-xs-12
-                text-align-center
-              >
-                As a fully integrated transport and logistics provider, Andelles
-                Logistics Solutions is able to make your logistics network more
-                (cost-)efficient, whatever your business sector. Our goal is to
-                develop customized, high-quality, large-scale logistical
-                projects for our customers in order to provide a definite
-                competitive advantage.
-              </small>
-            </div>
+            <small
+              col-xxl-12
+              col-xl-12
+              col-lg-12
+              col-md-12
+              col-sm-12
+              col-xs-12
+              text-align-center
+            >
+              As a fully integrated transport and logistics provider, Andelles
+              Logistics Solutions is able to make your logistics network more
+              (cost-)efficient, whatever your business sector. Our goal is to
+              develop customized, high-quality, large-scale logistical projects
+              for our customers in order to provide a definite competitive
+              advantage.
+            </small>
           </div>
-          <div className="col-sm-6 text-center">
-            <div className="about-container-bg">
-              <div className="about-container-def">
-                <h4>14</h4>
-                <p>Years of Experience</p>
-              </div>
-              <div className="about-container-def">
-                <h4>1800</h4>
-                <p>Skilled Workers</p>
-              </div>
-              <div className="about-container-def">
-                <h4>54</h4>
-                <p>Countries Worldwide</p>
-              </div>
-              <div className="about-container-def">
-                <h4>1050</h4>
-                <p>Offices Globally</p>
-              </div>
+
+          <div className="about-container-bg col-sm-6 text-center">
+            <div className="about-container-def">
+              <h4>14</h4>
+              <p>Years of Experience</p>
+            </div>
+            <div className="about-container-def">
+              <h4>1800</h4>
+              <p>Skilled Workers</p>
+            </div>
+            <div className="about-container-def">
+              <h4>54</h4>
+              <p>Countries Worldwide</p>
+            </div>
+            <div className="about-container-def">
+              <h4>1050</h4>
+              <p>Offices Globally</p>
             </div>
           </div>
         </div>
