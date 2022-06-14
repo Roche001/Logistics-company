@@ -183,7 +183,7 @@ const Home = () => {
           <h3>Who are We</h3>
         </div>
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6 text-center">
             <div className="about-container-p ">
               <p
                 col-xxl-12
@@ -218,7 +218,7 @@ const Home = () => {
               </small>
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 text-center">
             <div className="about-container-bg">
               <div className="about-container-def">
                 <h4>14</h4>
