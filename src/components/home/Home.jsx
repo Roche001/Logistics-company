@@ -184,21 +184,6 @@ const Home = () => {
         </div>
         <div className="row">
           <div className="about-container-p col-sm-6 text-center">
-            <p
-              col-xxl-12
-              col-xl-12
-              col-lg-12
-              col-md-12
-              col-sm-12
-              col-xs-12
-              text-align-center
-            >
-              Andelles Logistics Solutions is a worldwide transport and
-              logistics company and provides added-value services in the areas
-              of road transport, air and sea freight, logistics and customs and
-              forwarding services.
-            </p>
-
             <small
               col-xxl-12
               col-xl-12
