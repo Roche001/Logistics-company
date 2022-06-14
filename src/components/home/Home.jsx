@@ -183,24 +183,21 @@ const Home = () => {
           <h3>Who are We</h3>
         </div>
         <div className="about-container-p container-fluid row">
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <p>
-              Andelles Logistics Solutions is a worldwide transport and
-              logistics company and provides added-value services in the areas
-              of road transport, air and sea freight, logistics and customs and
-              forwarding services.
-            </p>
-          </div>
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <small>
-              As a fully integrated transport and logistics provider, Andelles
-              Logistics Solutions is able to make your logistics network more
-              (cost-)efficient, whatever your business sector. Our goal is to
-              develop customized, high-quality, large-scale logistical projects
-              for our customers in order to provide a definite competitive
-              advantage.
-            </small>
-          </div>
+          <p col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12>
+            Andelles Logistics Solutions is a worldwide transport and logistics
+            company and provides added-value services in the areas of road
+            transport, air and sea freight, logistics and customs and forwarding
+            services.
+          </p>
+
+          <small col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12>
+            As a fully integrated transport and logistics provider, Andelles
+            Logistics Solutions is able to make your logistics network more
+            (cost-)efficient, whatever your business sector. Our goal is to
+            develop customized, high-quality, large-scale logistical projects
+            for our customers in order to provide a definite competitive
+            advantage.
+          </small>
         </div>
         <div className="about-container-bg">
           <div className="about-container-def">
