@@ -183,7 +183,7 @@ const Home = () => {
           <h3>Who are We</h3>
         </div>
         <div className="row">
-          <div className="about-container-p col-sm-6 text-center">
+          <div className="about-container-p col-sm-12 text-center">
             <small
               col-xxl-12
               col-xl-12
@@ -201,25 +201,10 @@ const Home = () => {
               advantage.
             </small>
           </div>
-
-          <div className="about-container-bg col-sm-6 text-center">
-            <div className="about-container-def col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
-              <h4>14</h4>
-              <p>Years of Experience</p>
-            </div>
-            <div className="about-container-def col-sm-2">
-              <h4>1800</h4>
-              <p>Skilled Workers</p>
-            </div>
-            <div className="about-container-def col-sm-2">
-              <h4>1050</h4>
-              <p>Offices Globally</p>
-            </div>
-          </div>
         </div>
       </div>
-      <div className="testimonial-box">
-        <div className="testimonial-box-header">
+      <div className="testimonial-box container-fluid">
+        <div className="testimonial-box-header row text-center">
           <h3>Customers' Reviews</h3>
           <p>What customers say about us</p>
         </div>
