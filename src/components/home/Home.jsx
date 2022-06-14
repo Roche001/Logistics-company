@@ -203,7 +203,7 @@ const Home = () => {
           </div>
 
           <div className="about-container-bg col-sm-6 text-center">
-            <div className="about-container-def col-sm-2">
+            <div className="about-container-def col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
               <h4>14</h4>
               <p>Years of Experience</p>
             </div>
@@ -245,7 +245,7 @@ const Home = () => {
               <h3>Zana (Alexandra) Moss</h3>
               <h4>Human Performance Specialist </h4>
             </div>
-            <div className="comment">
+            <div className="comment text-center ">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
                 Family felt wanted here, <br /> From how our Reservation was
