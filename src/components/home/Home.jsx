@@ -203,19 +203,15 @@ const Home = () => {
           </div>
 
           <div className="about-container-bg col-sm-6 text-center">
-            <div className="about-container-def">
+            <div className="about-container-def col-sm-2">
               <h4>14</h4>
               <p>Years of Experience</p>
             </div>
-            <div className="about-container-def">
+            <div className="about-container-def col-sm-2">
               <h4>1800</h4>
               <p>Skilled Workers</p>
             </div>
-            <div className="about-container-def">
-              <h4>54</h4>
-              <p>Countries Worldwide</p>
-            </div>
-            <div className="about-container-def">
+            <div className="about-container-def col-sm-2">
               <h4>1050</h4>
               <p>Offices Globally</p>
             </div>
