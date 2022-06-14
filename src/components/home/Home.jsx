@@ -179,7 +179,7 @@ const Home = () => {
         </div>
       </div>
       <div className="about-container container-fluid" data-aos="flip-left">
-        <div className="row">
+        <div className="row text-center">
           <h3>Who are We</h3>
         </div>
         <div className="row">
