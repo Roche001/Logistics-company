@@ -63,7 +63,7 @@ const Home = () => {
             className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"
             data-aos="fade-down"
           >
-            <span>
+            <span className="img-responsive">
               <RiCustomerServiceFill />
             </span>
             <h4>24/7 Support</h4>
@@ -74,7 +74,7 @@ const Home = () => {
             className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"
             data-aos="fade-up"
           >
-            <span>
+            <span className="img-responsive">
               {" "}
               <RiSecurePaymentFill />
             </span>
@@ -105,7 +105,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
-              <img src="./assets/road1.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road1.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Road Transportation </h5>
               </div>
@@ -114,7 +119,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
-              <img src="./assets/road2.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road2.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Sea Freight</h5>
               </div>
@@ -123,7 +133,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
-              <img src="./assets/road3.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road3.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Air Freight</h5>
               </div>
@@ -132,7 +147,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
-              <img src="./assets/road4.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road4.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Logistics Solutions</h5>
               </div>
@@ -143,7 +163,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-left"
             >
-              <img src="./assets/road5.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road5.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Logistics Laboratory</h5>
               </div>
@@ -152,7 +177,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-left"
             >
-              <img src="./assets/road6.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road6.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Warehousing Solutions</h5>
               </div>
@@ -161,7 +191,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-left"
             >
-              <img src="./assets/road7.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road7.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Refrigerated LTL</h5>
               </div>
@@ -170,7 +205,12 @@ const Home = () => {
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-left"
             >
-              <img src="./assets/road8.jpeg" alt="road" className="img-fluid" />
+              <img
+                className="img-responsive"
+                src="./assets/road8.jpeg"
+                alt="road"
+                className="img-fluid"
+              />
               <div className="road">
                 <h5> Truckload Services</h5>
               </div>
@@ -224,7 +264,11 @@ const Home = () => {
         >
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/tes1.jpeg" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/tes1.jpeg"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -251,7 +295,11 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/tes2.jpeg" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/tes2.jpeg"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -278,7 +326,11 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/test3.jpeg" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/test3.jpeg"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -305,7 +357,11 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/test4.jpeg" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/test4.jpeg"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -332,7 +388,11 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/test5.png" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/test5.png"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -359,7 +419,11 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img src="./assets/test6.jpeg" alt="r" />
+              <img
+                className="img-responsive"
+                src="./assets/test6.jpeg"
+                alt="r"
+              />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>
@@ -506,7 +570,11 @@ const Home = () => {
             className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
             data-aos="fade-right"
           >
-            <img src="./assets/Scania.jpeg" alt="Lorry" />
+            <img
+              className="img-responsive"
+              src="./assets/Scania.jpeg"
+              alt="Lorry"
+            />
             <h4>Fleet Operator Training</h4>
             <p>
               We are looking for new drivers. Do you want to join us? <br /> In
@@ -518,7 +586,11 @@ const Home = () => {
             className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
             data-aos="fade-right"
           >
-            <img src="./assets/Scania2.jpeg" alt="Lorry" />
+            <img
+              className="img-responsive"
+              src="./assets/Scania2.jpeg"
+              alt="Lorry"
+            />
             <h4>Driver Training Program</h4>
             <p>
               Take advantage of another training course developed by our
@@ -530,7 +602,11 @@ const Home = () => {
             className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
             data-aos="fade-right"
           >
-            <img src="./assets/Scania3.jpeg" alt="Lorry" />
+            <img
+              className="img-responsive"
+              src="./assets/Scania3.jpeg"
+              alt="Lorry"
+            />
             <h4>Driver Incentives</h4>
             <p>
               Learn how we encourage our drivers and discover how to grow your
