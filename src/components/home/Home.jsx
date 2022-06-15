@@ -220,7 +220,7 @@ const Home = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
+          className="mySwiper row"
         >
           <SwiperSlide className="review-box">
             <div className="review-box-img">

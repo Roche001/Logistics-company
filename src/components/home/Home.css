@@ -356,6 +356,9 @@ span {
     justify-content: center;
     align-items: center;
   }
+  .testimonial-box-header P {
+    margin-left: 1rem;
+  }
   .choose-us {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -368,9 +371,6 @@ span {
   .about-container {
     max-width: 100%;
     margin-top: 135rem;
-  }
-  .testimonial-box {
-    max-width: 100%;
   }
   .find {
     display: grid;
