@@ -374,11 +374,12 @@ span {
     max-width: 100%;
     margin-top: 135rem;
   }
-  .job h3 {
-    margin-left: 2rem;
-  }
-  .job p {
-    margin-left: 2rem;
+  .job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .find {
     display: grid;
