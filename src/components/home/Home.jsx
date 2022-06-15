@@ -422,67 +422,77 @@ const Home = () => {
           </div>
         )}
       </div>
-      <div className="find">
-        <div className="find-container">
-          <h4>Let us help you to find a solution that meets your needs</h4>
-          <p>
-            Do you need transport for your cargo by road, sea
-            <br /> or air, customised solutions for more demanding <br />
-            project forwarding cases or logistics solutions for <br />
-            your business? Do you have questions or comments <br />
-            regarding our services? Are you interested in our <br />
-            company or the opportunities we can offer?
-          </p>
-          <div className="phones">
-            <h3>
-              <small>
-                <MdPhone />
-              </small>
-              +386 40 222 455 <p>info@andelesslogistics.org</p>
-            </h3>
-            <h3>
-              <small>
-                <MdLocationPin />
-              </small>
-              Transport ltd. inc. 300
-              <p>Pennsylvania Ave NW, Washington</p>
-            </h3>
-            <h3>
-              <small>
-                <MdOutlineTimerOff />
-              </small>
-              9:00-18:00
-              <p>Monday-Friday</p>
-            </h3>
+      <div className="find container-fluid">
+        <div className="row">
+          <div className="find-container col-sm-6">
+            <h4>Let us help you to find a solution that meets your needs</h4>
+            <p>
+              Do you need transport for your cargo by road, sea
+              <br /> or air, customised solutions for more demanding <br />
+              project forwarding cases or logistics solutions for <br />
+              your business? Do you have questions or comments <br />
+              regarding our services? Are you interested in our <br />
+              company or the opportunities we can offer?
+            </p>
+            <div className="phones">
+              <h3>
+                <small>
+                  <MdPhone />
+                </small>
+                +386 40 222 455 <p>info@andelesslogistics.org</p>
+              </h3>
+              <h3>
+                <small>
+                  <MdLocationPin />
+                </small>
+                Transport ltd. inc. 300
+                <p>Pennsylvania Ave NW, Washington</p>
+              </h3>
+              <h3>
+                <small>
+                  <MdOutlineTimerOff />
+                </small>
+                9:00-18:00
+                <p>Monday-Friday</p>
+              </h3>
+            </div>
           </div>
-        </div>
-        <div className="find-container-a">
-          <h3>Get in Touch</h3>
+          <div className="find-container-a col-sm-6">
+            <h3>Get in Touch</h3>
 
-          <List sx={style} component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <TextField id="outlined-basic" label="Name" variant="outlined" />
-            </ListItem>
-            <ListItem button>
-              <TextField
-                id="outlined-basic"
-                label="E-Mail"
-                variant="outlined"
-              />
-            </ListItem>
-            <ListItem button>
-              <TextField id="outlined-basic" label="Phone" variant="outlined" />
-            </ListItem>
-            <ListItem button>
-              <TextareaAutosize
-                aria-label="empty textarea"
-                placeholder="Leave Message"
-                style={{ width: 245 }}
-              />
-            </ListItem>
-          </List>
+            <List sx={style} component="nav" aria-label="mailbox folders">
+              <ListItem button>
+                <TextField
+                  id="outlined-basic"
+                  label="Name"
+                  variant="outlined"
+                />
+              </ListItem>
+              <ListItem button>
+                <TextField
+                  id="outlined-basic"
+                  label="E-Mail"
+                  variant="outlined"
+                />
+              </ListItem>
+              <ListItem button>
+                <TextField
+                  id="outlined-basic"
+                  label="Phone"
+                  variant="outlined"
+                />
+              </ListItem>
+              <ListItem button>
+                <TextareaAutosize
+                  aria-label="empty textarea"
+                  placeholder="Leave Message"
+                  style={{ width: 245 }}
+                />
+              </ListItem>
+            </List>
 
-          <div className="button">Send Message</div>
+            <div className="button">Send Message</div>
+          </div>
         </div>
       </div>
       <div className="news">
