@@ -387,13 +387,17 @@ const Home = () => {
         </Swiper>
       </div>
       <div className="job">
-        <h3>Job opportunities</h3>
-        <p>
-          Define your own success with a career at Andelles Logistics Solutions{" "}
-        </p>
-        <button onClick={toggleModal} className="button">
-          Find Your Job
-        </button>
+        <div className="job-a">
+          {" "}
+          <h3>Job opportunities</h3>
+          <p>
+            Define your own success with a career at Andelles Logistics
+            Solutions{" "}
+          </p>
+          <button onClick={toggleModal} className="button">
+            Find Your Job
+          </button>
+        </div>
         {modal && (
           <div className="modal">
             <div className="overlay"></div>
