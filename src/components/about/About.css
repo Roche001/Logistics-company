@@ -88,13 +88,7 @@
   #about {
     max-width: 100%;
   }
-  .mission {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+
   .glance-about {
     display: flex;
     flex-direction: column;
