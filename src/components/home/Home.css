@@ -328,6 +328,11 @@ span {
 }
 
 .news-container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 30rem;
   height: 30rem;
   margin: 2rem;
