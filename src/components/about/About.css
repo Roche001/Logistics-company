@@ -29,10 +29,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 4rem;
 }
 .mission-global {
-  margin: 2rem;
 }
 .mission-global h3 {
   text-transform: capitalize;
