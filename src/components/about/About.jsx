@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <div className="mission container-fluid">
         <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
             <div
               className="mission-global "
               data-aos="fade-up"
@@ -35,7 +35,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
             <div
               className="mission-global  "
               data-aos="fade-up"
@@ -48,12 +48,12 @@ const About = () => {
                 expectations while providing a place for employees
                 <br /> to build their careers and prosper. Our environment
                 <br /> breeds success, and you’ll notice our people move
-                <br /> faster, work harder and are better rewarded than <br />{" "}
+                <br /> faster, work harder and are better rewarded than <br />
                 the competition.
               </p>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
             <div
               className="mission-global "
               data-aos="fade-up"
@@ -62,14 +62,14 @@ const About = () => {
               <h3>0.3 MISSION</h3>
               <h5>We are adding value to each step of your supply chain</h5>
               <p>
-                Our job is to make sure that from raw material to finished{" "}
+                Our job is to make sure that from raw material to finished
                 <br />
-                goods, to returns management, we provide the critical services{" "}
+                goods, to returns management, we provide the critical services
                 <br />
                 and information necessary to We then build a solution customized
                 <br /> to your cost and service requirements using all possible
                 information <br />
-                and our proven experience.{" "}
+                and our proven experience.
               </p>
             </div>
           </div>
