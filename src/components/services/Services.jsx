@@ -8,25 +8,27 @@ const Services = () => {
     duration: 2000,
   });
   return (
-    <section id="services" data-aos="fade-up-right">
+    <section id="services container" data-aos="fade-up-right">
       <div className="services">
         <div className="services-header">
           <h3>Our Services</h3>
         </div>
       </div>
-      <div className="logistics-services">
-        <p>
-          With our extensive knowledge of logistics and transport systems as
-          well as 30 years of <br /> experience, we will find the best solution
-          for you.
-        </p>
-        <small>
-          We make sure your cargo will get there: on time, safely, and on
-          budget. Do not worry about the world becoming more and more complex{" "}
-          <br />
-          and transportation requirements increasing every day. We will take
-          care of it all, every step of the way.
-        </small>
+      <div className="row">
+        <div className="logistics-services">
+          <p>
+            With our extensive knowledge of logistics and transport systems as
+            well as 30 years of <br /> experience, we will find the best
+            solution for you.
+          </p>
+          <small>
+            We make sure your cargo will get there: on time, safely, and on
+            budget. Do not worry about the world becoming more and more complex{" "}
+            <br />
+            and transportation requirements increasing every day. We will take
+            care of it all, every step of the way.
+          </small>
+        </div>
       </div>
       <div className="offerings-container">
         <div className="offering-container-one">
