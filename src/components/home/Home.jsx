@@ -514,7 +514,10 @@ const Home = () => {
             </p>
             <div className="button">Read More</div>
           </div>
-          <div className="news-container-one" data-aos="fade-right">
+          <div
+            className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
+            data-aos="fade-right"
+          >
             <img src="./assets/Scania2.jpeg" alt="Lorry" />
             <h4>Driver Training Program</h4>
             <p>
@@ -523,7 +526,10 @@ const Home = () => {
             </p>
             <div className="button">Read More</div>
           </div>
-          <div className="news-container-one" data-aos="fade-right">
+          <div
+            className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
+            data-aos="fade-right"
+          >
             <img src="./assets/Scania3.jpeg" alt="Lorry" />
             <h4>Driver Incentives</h4>
             <p>
