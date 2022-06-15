@@ -84,28 +84,3 @@
   color: #fff;
   font-weight: 600;
 }
-@media screen and (max-width: 600px) {
-  #about {
-    max-width: 100%;
-  }
-
-  .glance-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .glance-about-img {
-    max-width: 100%;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .glance-about-img img {
-    width: 5rem;
-    height: 5rem;
-  }
-}
