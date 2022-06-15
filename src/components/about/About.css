@@ -31,6 +31,7 @@
   align-items: center;
 }
 .mission-global {
+  margin: 2rem;
 }
 .mission-global h3 {
   text-transform: capitalize;

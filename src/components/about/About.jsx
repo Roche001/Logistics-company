@@ -15,7 +15,7 @@ const About = () => {
           <h3>About Us</h3>
         </div>
       </div>
-      <div className="mission container-fluid">
+      <div className="mission container">
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
             <div
