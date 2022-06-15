@@ -31,7 +31,11 @@ const Services = () => {
       <div className="offerings-container">
         <div className="offering-container-one">
           <div className="offering-container-img " data-aos="fade-right">
-            <img src="./assets/road1.jpeg" alt="road" />
+            <img
+              className="img-responsive"
+              src="./assets/road1.jpeg"
+              alt="road"
+            />
           </div>
           <div className="offering-container-text">
             <h3>ROAD TRANSPORTATION</h3>
@@ -71,12 +75,20 @@ const Services = () => {
             <div className="btn">Read More</div>
           </div>
           <div className="offering-container-img" data-aos="fade-left">
-            <img src="./assets/road2.jpeg" alt="road" />
+            <img
+              className="img-responsive"
+              src="./assets/road2.jpeg"
+              alt="road"
+            />
           </div>
         </div>
         <div className="offering-container-one">
           <div className="offering-container-img" data-aos="fade-right">
-            <img src="./assets/road3.jpeg" alt="road" />
+            <img
+              className="img-responsive"
+              src="./assets/road3.jpeg"
+              alt="road"
+            />
           </div>
           <div className="offering-container-text">
             <h3>AIR FREIGHT</h3>
@@ -115,12 +127,20 @@ const Services = () => {
             <div className="btn">Read More</div>
           </div>
           <div className="offering-container-img" data-aos="fade-left">
-            <img src="./assets/road4.jpeg" alt="road" />
+            <img
+              className="img-responsive"
+              src="./assets/road4.jpeg"
+              alt="road"
+            />
           </div>
         </div>
         <div className="offering-container-one">
           <div className="offering-container-img" data-aos="fade-right">
-            <img src="./assets/road5.jpeg" alt="road" />
+            <img
+              className="img-responsive"
+              src="./assets/road5.jpeg"
+              alt="road"
+            />
           </div>
           <div className="offering-container-text">
             <h3>LOGISTICS SOLUTIONS</h3>
