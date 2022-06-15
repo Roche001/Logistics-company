@@ -16,7 +16,7 @@ const About = () => {
         </div>
       </div>
       <div className="mission container-fluid">
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
           <div
             className="mission-global "
             data-aos="fade-up"
@@ -34,7 +34,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
           <div
             className="mission-global  "
             data-aos="fade-up"
@@ -52,9 +52,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
           <div
-            className="mission-global  col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center"
+            className="mission-global "
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
