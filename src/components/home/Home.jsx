@@ -501,8 +501,11 @@ const Home = () => {
             <h2>Latest News</h2>
           </div>
         </div>
-        <div className="news-container">
-          <div className="news-container-one" data-aos="fade-right">
+        <div className="news-container row">
+          <div
+            className="news-container-one col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
+            data-aos="fade-right"
+          >
             <img src="./assets/Scania.jpeg" alt="Lorry" />
             <h4>Fleet Operator Training</h4>
             <p>
