@@ -496,8 +496,10 @@ const Home = () => {
         </div>
       </div>
       <div className="news container-fluid">
-        <div className="news-header">
-          <h2>Latest News</h2>
+        <div className="row text-center">
+          <div className="news-header">
+            <h2>Latest News</h2>
+          </div>
         </div>
         <div className="news-container">
           <div className="news-container-one" data-aos="fade-right">
