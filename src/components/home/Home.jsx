@@ -109,7 +109,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road1.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Road Transportation </h5>
@@ -123,7 +122,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road2.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Sea Freight</h5>
@@ -137,7 +135,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road3.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Air Freight</h5>
@@ -151,7 +148,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road4.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Logistics Solutions</h5>
@@ -167,7 +163,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road5.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Logistics Laboratory</h5>
@@ -181,7 +176,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road6.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Warehousing Solutions</h5>
@@ -195,7 +189,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road7.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Refrigerated LTL</h5>
@@ -209,7 +202,6 @@ const Home = () => {
                 className="img-responsive"
                 src="./assets/road8.jpeg"
                 alt="road"
-                className="img-fluid"
               />
               <div className="road">
                 <h5> Truckload Services</h5>
