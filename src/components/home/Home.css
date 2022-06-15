@@ -365,7 +365,13 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
+  .news-container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .service-items {
     display: grid;
     grid-template-columns: 1fr;
