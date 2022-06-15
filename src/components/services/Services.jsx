@@ -34,16 +34,19 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="offerings-container">
-        <div className="offering-container-one">
-          <div className="offering-container-img " data-aos="fade-right">
+      <div className="offerings-container container">
+        <div className="offering-container-one row">
+          <div
+            className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+            data-aos="fade-right"
+          >
             <img
               className="img-responsive"
               src="./assets/road1.jpeg"
               alt="road"
             />
           </div>
-          <div className="offering-container-text">
+          <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h3>ROAD TRANSPORTATION</h3>
             <p>
               Delivery of full load, part load and group page shipments.

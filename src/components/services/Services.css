@@ -24,10 +24,6 @@
 }
 .offering-container-one {
   margin-left: 13rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 .offering-container-text {
   margin: 2rem;
