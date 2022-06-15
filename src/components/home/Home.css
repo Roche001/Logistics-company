@@ -363,6 +363,8 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .comment {
+  }
   .service-items {
     display: grid;
     grid-template-columns: 1fr;
