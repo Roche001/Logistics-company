@@ -495,7 +495,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="news">
+      <div className="news container-fluid">
         <div className="news-header">
           <h2>Latest News</h2>
         </div>
