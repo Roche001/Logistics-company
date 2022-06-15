@@ -388,8 +388,7 @@ span {
     max-width: 100%;
     width: 30rem;
   }
-  .news-container {
-    display: grid;
-    grid-template-columns: 1fr;
+  .news-container one {
+    margin: 2rem;
   }
 }
