@@ -14,13 +14,16 @@ const Services = () => {
           <h3>Our Services</h3>
         </div>
       </div>
-      <div className="row">
-        <div className="logistics-services">
+
+      <div className="logistics-services">
+        <div className=" row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <p>
             With our extensive knowledge of logistics and transport systems as
             well as 30 years of <br /> experience, we will find the best
             solution for you.
           </p>
+        </div>
+        <div className=" row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <small>
             We make sure your cargo will get there: on time, safely, and on
             budget. Do not worry about the world becoming more and more complex{" "}
@@ -30,6 +33,7 @@ const Services = () => {
           </small>
         </div>
       </div>
+
       <div className="offerings-container">
         <div className="offering-container-one">
           <div className="offering-container-img " data-aos="fade-right">
