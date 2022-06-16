@@ -31,6 +31,9 @@
   width: 30rem;
   height: 20rem;
 }
+.offering-container-text h3:hover {
+  text-decoration: underline;
+}
 .btn {
   background: #9e9e9e;
   height: 4rem;
