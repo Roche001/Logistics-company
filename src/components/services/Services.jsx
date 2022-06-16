@@ -15,7 +15,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="logistics-services">
+      <div className="logistics-services container">
         <div className=" row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <p>
             With our extensive knowledge of logistics and transport systems as
