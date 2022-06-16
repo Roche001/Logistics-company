@@ -57,6 +57,13 @@
 .offering-container-text h3:hover {
   text-decoration: underline;
 }
+.offering-container-text p {
+  transition: 400ms;
+  cursor: pointer;
+}
+.offering-container-text p:hover {
+  color: #f44336;
+}
 @media screen and (max-width: 600px) {
   #services {
     max-width: 100%;
