@@ -26,7 +26,7 @@ const Services = () => {
         <div className=" row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <small>
             We make sure your cargo will get there: on time, safely, and on
-            budget. Do not worry about the world becoming more and more complex{" "}
+            budget. Do not worry about the world becoming more and more complex
             <br />
             and transportation requirements increasing every day. We will take
             care of it all, every step of the way.
@@ -35,18 +35,15 @@ const Services = () => {
       </div>
 
       <div className="offerings-container container">
-        <div className="offering-container-one row">
-          <div
-            className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12"
-            data-aos="fade-right"
-          >
+        <div className="offering-container-one ">
+          <div className="offering-container-img " data-aos="fade-right">
             <img
               className="img-responsive"
               src="./assets/road1.jpeg"
               alt="road"
             />
           </div>
-          <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div className="offering-container-text">
             <h3>ROAD TRANSPORTATION</h3>
             <p>
               Delivery of full load, part load and group page shipments.
