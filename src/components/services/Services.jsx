@@ -71,7 +71,7 @@ const Services = () => {
             </div>
           </div>
           <div className="offering-container-one row">
-            <div className="offering-container-text">
+            <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h3>SEA FREIGHT</h3>
               <p>
                 Our company’s sea services provide much more than the average
@@ -88,7 +88,10 @@ const Services = () => {
               </small>
               <div className="btn">Read More</div>
             </div>
-            <div className="offering-container-img" data-aos="fade-left">
+            <div
+              className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-left"
+            >
               <img
                 className="img-responsive"
                 src="./assets/road2.jpeg"
@@ -96,15 +99,18 @@ const Services = () => {
               />
             </div>
           </div>
-          <div className="offering-container-one">
-            <div className="offering-container-img" data-aos="fade-right">
+          <div className="offering-container-one row">
+            <div
+              className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-right"
+            >
               <img
                 className="img-responsive"
                 src="./assets/road3.jpeg"
                 alt="road"
               />
             </div>
-            <div className="offering-container-text">
+            <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h3>AIR FREIGHT</h3>
               <p>
                 Not all cargo can travel by road. <br />
