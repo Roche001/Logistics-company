@@ -8,7 +8,7 @@ const Services = () => {
     duration: 2000,
   });
   return (
-    <section id="service" data-aos="fade-up-right">
+    <section id="service" data-aos="fade-up-right" className="container">
       <div className="services">
         <div className="services-header">
           <h3>Our Services</h3>
