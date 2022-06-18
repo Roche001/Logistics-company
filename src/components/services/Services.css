@@ -23,6 +23,7 @@
   color: #9e9e9e;
 }
 .offering-container-one {
+  margin: 2rem;
 }
 .offering-container-text {
   margin: 2rem;
@@ -83,15 +84,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .offering-container-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-  }
-  .offering-container-text {
   }
 }
