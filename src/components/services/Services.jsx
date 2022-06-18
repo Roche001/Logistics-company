@@ -154,15 +154,18 @@ const Services = () => {
               />
             </div>
           </div>
-          <div className="offering-container-one">
-            <div className="offering-container-img" data-aos="fade-right">
+          <div className="offering-container-one row">
+            <div
+              className="offering-container-img  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-right"
+            >
               <img
                 className="img-responsive"
                 src="./assets/road5.jpeg"
                 alt="road"
               />
             </div>
-            <div className="offering-container-text">
+            <div className="offering-container-text  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h3>LOGISTICS SOLUTIONS</h3>
               <p>
                 Not all cargo can travel by road. <br />
@@ -180,6 +183,7 @@ const Services = () => {
               <div className="btn">Read More</div>
             </div>
           </div>
+          s
         </div>
       </div>
     </section>
