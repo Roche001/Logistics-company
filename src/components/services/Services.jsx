@@ -8,14 +8,14 @@ const Services = () => {
     duration: 2000,
   });
   return (
-    <section id="services container" data-aos="fade-up-right">
+    <section id="service" data-aos="fade-up-right">
       <div className="services">
         <div className="services-header">
           <h3>Our Services</h3>
         </div>
       </div>
 
-      <div className="logistics-services container">
+      <div className="logistics-services">
         <div className="row">
           <div className="  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <p>
@@ -39,7 +39,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="offerings-container container">
+      <div className="offerings-container ">
         <div className="offering-container-one row">
           <div
             className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12"
