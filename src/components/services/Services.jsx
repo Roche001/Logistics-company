@@ -128,8 +128,8 @@ const Services = () => {
               <div className="btn">Read More</div>
             </div>
           </div>
-          <div className="offering-container-one">
-            <div className="offering-container-text">
+          <div className="offering-container-one row">
+            <div className="offering-container-text  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h3>LOGISTICS SOLUTIONS</h3>
               <p>
                 Our company’s sea services provide much more than the average
@@ -146,7 +146,10 @@ const Services = () => {
               </small>
               <div className="btn">Read More</div>
             </div>
-            <div className="offering-container-img" data-aos="fade-left">
+            <div
+              className="offering-container-img  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-left"
+            >
               <img
                 className="img-responsive"
                 src="./assets/road4.jpeg"
@@ -183,7 +186,6 @@ const Services = () => {
               <div className="btn">Read More</div>
             </div>
           </div>
-          s
         </div>
       </div>
     </section>
