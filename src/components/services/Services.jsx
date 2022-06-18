@@ -42,7 +42,7 @@ const Services = () => {
         <div className="offerings-container ">
           <div className="offering-container-one row">
             <div
-              className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12"
+              className="offering-container-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
               data-aos="fade-right"
             >
               <img
@@ -51,7 +51,7 @@ const Services = () => {
                 alt="road"
               />
             </div>
-            <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div className="offering-container-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h3>ROAD TRANSPORTATION</h3>
               <p>
                 Delivery of full load, part load and group page shipments.
