@@ -70,7 +70,7 @@ const Services = () => {
               <div className="btn">Read More</div>
             </div>
           </div>
-          <div className="offering-container-one">
+          <div className="offering-container-one row">
             <div className="offering-container-text">
               <h3>SEA FREIGHT</h3>
               <p>
