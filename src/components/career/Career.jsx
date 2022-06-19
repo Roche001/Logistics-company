@@ -108,16 +108,16 @@ const Career = () => {
               <h4>Compensation Manager</h4>
               <h5>Experience and Skills</h5>
               <p>
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 Bachelor’s degree in Business, Human Resources, or a related
                 field.
               </p>
               <p>
-                <MdKeyboardArrowRight />7 years’ compensation management
-                experience in a sales focused organization.
+                <MdKeyboardArrowRight className="red" />7 years’ compensation
+                management experience in a sales focused organization.
               </p>
               <p>
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 Proven experience writing and implementing successful
                 compensation programs.
               </p>
@@ -151,15 +151,15 @@ const Career = () => {
               <h4>Business Development Representative</h4>
               <h5>Experience and Skills</h5>
               <p>
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 2-3 years of selling and account management experience
               </p>
               <p>
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 Strong work ethic, self-motivation, and sales drive
               </p>
               <p>
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 Ability to maintain composure in stressful situations
               </p>
               <p>
