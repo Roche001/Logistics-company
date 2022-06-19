@@ -15,6 +15,9 @@
   margin-left: 20rem;
   margin: 4rem;
 }
+.team-text h5 {
+  font-weight: 900;
+}
 .team-header h4 {
   color: #fff;
   font-size: 1.5rem;
