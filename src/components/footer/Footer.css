@@ -49,6 +49,9 @@
   color: #fff;
   margin-left: -60rem;
 }
+.picture2 {
+  margin: 1rem;
+}
 .picture2 h3,
 h6 {
   color: #bdbdbd;
@@ -83,6 +86,7 @@ h6 {
 }
 .spanner {
   cursor: pointer;
+  margin-left: -12rem;
 }
 .spanner h5:hover {
   color: #f44336;
