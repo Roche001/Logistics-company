@@ -50,14 +50,8 @@
 .team-members-text h4:hover {
   color: #e53935;
 }
-.team-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 .team-members {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
 }
