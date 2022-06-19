@@ -36,7 +36,11 @@ const Team = () => {
         <div className="team-container row">
           <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div className="team-members-text">
-              <img src="./assets/driver1.jpeg" alt="driver" />
+              <img
+                className="img-responsive"
+                src="./assets/driver1.jpeg"
+                alt="driver"
+              />
               <h4>Donald McCullin</h4>
               <p>Operations Manager</p>
             </div>
@@ -73,7 +77,11 @@ const Team = () => {
           </div>
           <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div className="team-members-text">
-              <img src="./assets/driver2.jpeg" alt="driver" />
+              <img
+                className="img-responsive"
+                src="./assets/driver2.jpeg"
+                alt="driver"
+              />
               <h4>Erika Michaelson</h4>
               <p>Logistics Coordinator</p>
             </div>
@@ -110,7 +118,11 @@ const Team = () => {
           </div>
           <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div className="team-members-text">
-              <img src="./assets/driver3.jpeg" alt="driver" />
+              <img
+                className="img-responsive"
+                src="./assets/driver3.jpeg"
+                alt="driver"
+              />
               <h4>Bill While</h4>
               <p>Driver</p>
             </div>
@@ -147,7 +159,11 @@ const Team = () => {
           </div>
           <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div className="team-members-text">
-              <img src="./assets/driver4.jpeg" alt="driver" />
+              <img
+                className="img-responsive"
+                src="./assets/driver4.jpeg"
+                alt="driver"
+              />
               <h4>Jeremy Gregson</h4>
               <p>Driver</p>
             </div>
