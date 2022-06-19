@@ -27,8 +27,6 @@
   margin: 2rem;
 }
 .location-bg {
-  display: flex;
-  flex-direction: row;
 }
 .call-two {
   width: 10rem;
