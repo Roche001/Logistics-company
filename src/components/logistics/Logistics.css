@@ -74,14 +74,9 @@
   transform: scale(1.2);
 }
 .logistics-section-three {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin: 4rem;
 }
 .logistics-section-three-text {
-  margin: 4rem;
 }
 .logistics-section-three-text small {
   color: #bdbdbd;
