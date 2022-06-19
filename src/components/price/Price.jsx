@@ -30,7 +30,7 @@ const Price = () => {
             <br /> step of the way.
           </p>
         </div>
-        <div className="price-container">
+        <div className="price-container row">
           <div className="price-categories">
             <h3>BASIC</h3>
             <h1>
