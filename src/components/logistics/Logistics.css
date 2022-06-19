@@ -20,11 +20,7 @@
 }
 
 .logistics-section {
-  display: flex;
-  flex-direction: row;
   margin: 4rem;
-  justify-content: center;
-  align-items: center;
 }
 
 .logistics-section-one img {
