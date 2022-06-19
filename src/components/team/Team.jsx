@@ -19,7 +19,7 @@ const Team = () => {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="team-text">
+        <div className="team-text row">
           <h5>
             Join Team of Professionals - Become a Part of Andelles Logistics
             Solutions{" "}
