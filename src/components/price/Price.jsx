@@ -31,7 +31,7 @@ const Price = () => {
           </p>
         </div>
         <div className="price-container row">
-          <div className="price-categories">
+          <div className="price-categories col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <h3>BASIC</h3>
             <h1>
               $230{" "}
@@ -49,7 +49,7 @@ const Price = () => {
               Select Option
             </a>
           </div>
-          <div className="price-categories">
+          <div className="price-categories col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <h3>STANDARD</h3>
             <h1>
               $360{" "}
@@ -67,7 +67,7 @@ const Price = () => {
               Select Option
             </a>
           </div>
-          <div className="price-categories">
+          <div className="price-categories col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <h3>GOLD</h3>
             <h1>
               $520{" "}
@@ -84,7 +84,7 @@ const Price = () => {
               Select Option
             </a>
           </div>
-          <div className="price-categories">
+          <div className="price-categories col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <h3>PLATINUM</h3>
             <h1>
               $660{" "}
