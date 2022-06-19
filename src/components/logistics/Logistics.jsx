@@ -65,7 +65,12 @@ const Logistics = () => {
               </h5>
             </div>
           </div>
-          <div className="logistics-section-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div
+            className="logistics-section-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <img
               className="img-responsive"
               src="./assets/solutions.jpg"
@@ -74,7 +79,12 @@ const Logistics = () => {
           </div>
         </div>
         <div className="logistics-section-two row">
-          <div className="logistics-section-two-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div
+            className="logistics-section-two-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <img
               className="img-responsive"
               src="./assets/warehouse.jpeg"
@@ -114,7 +124,12 @@ const Logistics = () => {
               but also to cover the risk of unforeseen events.
             </small>
           </div>
-          <div className="logistics-section-three-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div
+            className="logistics-section-three-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <img
               className="img-responsive"
               src="./assets/semi.jpeg"
