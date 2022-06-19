@@ -66,12 +66,20 @@ const Logistics = () => {
             </div>
           </div>
           <div className="logistics-section-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img src="./assets/solutions.jpg" alt="solutions" />
+            <img
+              className="img-responsive"
+              src="./assets/solutions.jpg"
+              alt="solutions"
+            />
           </div>
         </div>
         <div className="logistics-section-two row">
           <div className="logistics-section-two-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img src="./assets/warehouse.jpeg" alt="ware" />
+            <img
+              className="img-responsive"
+              src="./assets/warehouse.jpeg"
+              alt="ware"
+            />
           </div>
           <div className="logistics-section-two-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h3>Warehousing and storage</h3>
@@ -107,7 +115,11 @@ const Logistics = () => {
             </small>
           </div>
           <div className="logistics-section-three-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img src="./assets/semi.jpeg" alt="semi" />
+            <img
+              className="img-responsive"
+              src="./assets/semi.jpeg"
+              alt="semi"
+            />
           </div>
         </div>
       </div>
