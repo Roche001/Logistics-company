@@ -8,17 +8,17 @@ import { FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <section id="footer">
-      <div className="container-one">
-        <div className="reach-out">
+    <section id="footer" className="container-fluid">
+      <div className="container-one row">
+        <div className="reach-out col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <h5>Want to Get a Free Consultation? Let Us Know! </h5>
         </div>
-        <div className="us">
+        <div className="us col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <a href="#contact">Reach Out</a>
         </div>
       </div>
-      <div className="container-two">
-        <div className="information">
+      <div className="container-two row">
+        <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
           <div className="logo-img">
             <div className="picture">
               <img src="./assets/logo2.png" alt="logo" />
@@ -28,17 +28,8 @@ const Footer = () => {
               <h6>International Transportation & Logistics</h6>
             </div>
           </div>
-          <div className="picture3">
-            {" "}
-            <p>
-              Andelles Logistics is a leading logistics company <br /> that
-              delivers customized supply chain solutions <br />
-              and all related services to meet the unique <br /> logistics needs
-              of our customers.
-            </p>
-          </div>
         </div>
-        <div className="information">
+        <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
           <h4>Information</h4>
           <div className="spanner">
             <h5>
@@ -118,18 +109,9 @@ const Footer = () => {
               News
             </h5>
           </div>
-          <div className="spanner">
-            {" "}
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Contacts
-            </h5>
-          </div>
         </div>
 
-        <div className="information">
+        <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
           <div className="phone-number">
             <h4>Contact us</h4>
             <p>
@@ -138,22 +120,6 @@ const Footer = () => {
             </p>
             <p>Phone +1(409)987 5874</p>
             <h6>info@andelesslogistics.org</h6>
-          </div>
-          <div className="social">
-            <h4>Social Media Handles</h4>
-            <a href="facebook">
-              {" "}
-              <BsFacebook />
-            </a>
-            <a href="Instagram">
-              <BsInstagram />
-            </a>
-            <a href="Twitter">
-              <FiTwitter />
-            </a>
-            <a href="Linked">
-              <BsLinkedin />
-            </a>
           </div>
         </div>
       </div>
