@@ -72,6 +72,9 @@ h6 {
 .information {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .information p {
   color: #575757;
