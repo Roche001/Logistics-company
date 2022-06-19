@@ -33,7 +33,6 @@
 .career-options-one-social span {
   color: #f44336;
   font-size: 1rem;
-  margin: 0.5rem;
 }
 .career-text {
   display: flex;
@@ -52,6 +51,7 @@
 }
 .button {
   margin: 2rem;
+  text-decoration: none;
 }
 .career-options-one-text span {
   color: #f44336;

@@ -19,7 +19,7 @@ const Career = () => {
         </div>
       </div>
       <div className="container">
-        <div className="career-text">
+        <div className="career-text row">
           <h4>Join Team of Professionals - Become a Part of TransLogic</h4>
           <p>
             We cherish active specialists willing to work on our company. If you
@@ -29,8 +29,8 @@ const Career = () => {
           </p>
         </div>
         <div className="career-options">
-          <div className="career-options-one">
-            <div className="career-options-one-text">
+          <div className="career-options-one row">
+            <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Infrastructure Project Manager</h4>
               <p>
                 We are seeking a smart, organized, and personable leader
@@ -44,7 +44,7 @@ const Career = () => {
                 Send Resume
               </a>
             </div>
-            <div className="career-options-one-social">
+            <div className="career-options-one-social col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h5>
                 <span>
                   <BsFillCalendar2DateFill />
@@ -65,8 +65,8 @@ const Career = () => {
               </h5>
             </div>
           </div>
-          <div className="career-options-one">
-            <div className="career-options-one-text">
+          <div className="career-options-one row">
+            <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Service Desk Analyst</h4>
               <p>
                 The Service Desk Analyst provides first level technical <br />
@@ -82,7 +82,7 @@ const Career = () => {
                 Send Resume
               </a>
             </div>
-            <div className="career-options-one-social">
+            <div className="career-options-one-social col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h5>
                 <span>
                   <BsFillCalendar2DateFill />
@@ -103,31 +103,21 @@ const Career = () => {
               </h5>
             </div>
           </div>
-          <div className="career-options-one">
-            <div className="career-options-one-text">
+          <div className="career-options-one row">
+            <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <h4>Compensation Manager</h4>
               <h5>Experience and Skills</h5>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 Bachelor’s degree in Business, Human Resources, or a related
                 field.
               </p>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
-                7 years’ compensation management experience in a sales focused{" "}
-                organization.
+                <MdKeyboardArrowRight />7 years’ compensation management
+                experience in a sales focused organization.
               </p>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 Proven experience writing and implementing successful
                 compensation programs.
               </p>
@@ -135,7 +125,7 @@ const Career = () => {
                 Send Resume
               </a>
             </div>
-            <div className="career-options-one-social">
+            <div className="career-options-one-social col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h5>
                 <span>
                   <BsFillCalendar2DateFill />
@@ -156,43 +146,32 @@ const Career = () => {
               </h5>
             </div>
           </div>
-          <div className="career-options-one">
-            <div className="career-options-one-text">
+          <div className="career-options-one row">
+            <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Business Development Representative</h4>
               <h5>Experience and Skills</h5>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 2-3 years of selling and account management experience
               </p>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 Strong work ethic, self-motivation, and sales drive
               </p>
               <p>
-                {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 Ability to maintain composure in stressful situations
               </p>
               <p>
                 {" "}
-                <span>
-                  <MdKeyboardArrowRight />
-                </span>
+                <MdKeyboardArrowRight />
                 Confident decision-making skills
               </p>
               <a href="button" className="button">
                 Send Resume
               </a>
             </div>
-            <div className="career-options-one-social">
+            <div className="career-options-one-social col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h5>
                 <span>
                   <BsFillCalendar2DateFill />
