@@ -65,24 +65,3 @@
 .offering-container-text p:hover {
   color: #f44336;
 }
-@media screen and (max-width: 600px) {
-  #services {
-    max-width: 100%;
-  }
-  .logistics-services small,
-  p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: -30rem;
-    padding: 2rem;
-  }
-  .offerings-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
