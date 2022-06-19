@@ -114,26 +114,3 @@ h6 {
   color: #fff;
   transform: scale(1.2);
 }
-@media screen and (max-width: 600px) {
-  #footer {
-    max-width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
-  .container-one {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-  }
-  .container-two {
-    display: flex;
-    flex-direction: column;
-  }
-  .information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
