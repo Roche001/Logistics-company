@@ -33,157 +33,153 @@ const Team = () => {
             professionals for a long term.
           </p>
         </div>
-        <div className="team-container ">
-          <div className="row">
-            <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <div className="team-members-text">
-                <img src="./assets/driver1.jpeg" alt="driver" />
-                <h4>Donald McCullin</h4>
-                <p>Operations Manager</p>
-              </div>
-              <div className="team-members-social">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsFacebook />
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrInstagram />
-                </a>
-                <a
-                  href="https://twitter.com/i/flow/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsLinkedin />
-                </a>
-              </div>
+        <div className="team-container row">
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div className="team-members-text">
+              <img src="./assets/driver1.jpeg" alt="driver" />
+              <h4>Donald McCullin</h4>
+              <p>Operations Manager</p>
             </div>
-            <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <div className="team-members-text">
-                <img src="./assets/driver2.jpeg" alt="driver" />
-                <h4>Erika Michaelson</h4>
-                <p>Logistics Coordinator</p>
-              </div>
-              <div className="team-members-social">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsFacebook />
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrInstagram />
-                </a>
-                <a
-                  href="https://twitter.com/i/flow/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsLinkedin />
-                </a>
-              </div>
+            <div className="team-members-social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrInstagram />
+              </a>
+              <a
+                href="https://twitter.com/i/flow/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
             </div>
           </div>
-          <div className="row">
-            <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <div className="team-members-text">
-                <img src="./assets/driver3.jpeg" alt="driver" />
-                <h4>Bill While</h4>
-                <p>Driver</p>
-              </div>
-              <div className="team-members-social">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsFacebook />
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrInstagram />
-                </a>
-                <a
-                  href="https://twitter.com/i/flow/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsLinkedin />
-                </a>
-              </div>
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div className="team-members-text">
+              <img src="./assets/driver2.jpeg" alt="driver" />
+              <h4>Erika Michaelson</h4>
+              <p>Logistics Coordinator</p>
             </div>
-            <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <div className="team-members-text">
-                <img src="./assets/driver4.jpeg" alt="driver" />
-                <h4>Jeremy Gregson</h4>
-                <p>Driver</p>
-              </div>
-              <div className="team-members-social">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsFacebook />
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GrInstagram />
-                </a>
-                <a
-                  href="https://twitter.com/i/flow/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsLinkedin />
-                </a>
-              </div>
+            <div className="team-members-social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrInstagram />
+              </a>
+              <a
+                href="https://twitter.com/i/flow/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
+            </div>
+          </div>
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div className="team-members-text">
+              <img src="./assets/driver3.jpeg" alt="driver" />
+              <h4>Bill While</h4>
+              <p>Driver</p>
+            </div>
+            <div className="team-members-social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrInstagram />
+              </a>
+              <a
+                href="https://twitter.com/i/flow/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
+            </div>
+          </div>
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div className="team-members-text">
+              <img src="./assets/driver4.jpeg" alt="driver" />
+              <h4>Jeremy Gregson</h4>
+              <p>Driver</p>
+            </div>
+            <div className="team-members-social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GrInstagram />
+              </a>
+              <a
+                href="https://twitter.com/i/flow/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
             </div>
           </div>
         </div>
