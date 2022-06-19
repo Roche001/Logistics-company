@@ -47,6 +47,9 @@
 }
 .logistics-section-two {
   margin: 4rem;
+  background: #bdbdbd;
+  height: 60vh;
+  padding: 2rem;
 }
 
 .logistics-section-two-text small {
