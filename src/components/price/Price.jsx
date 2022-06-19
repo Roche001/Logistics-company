@@ -16,7 +16,7 @@ const Price = () => {
         </div>
       </div>
       <div className="container-flex">
-        <div className="pricing-header">
+        <div className="pricing-header row">
           <h3>
             With our extensive knowledge of logistics and transport systems as
             well as 30 years of <br />
