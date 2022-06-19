@@ -17,13 +17,14 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 6rem;
+  margin: 2rem;
 }
 .location-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 }
 .location-bg {
   display: flex;
