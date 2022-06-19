@@ -34,12 +34,13 @@ const Team = () => {
           </p>
         </div>
         <div className="team-container row">
-          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="team-members-text">
               <img
                 className="img-responsive"
                 src="./assets/driver1.jpeg"
                 alt="driver"
+                data-aos="zoom-in-up"
               />
               <h4>Donald McCullin</h4>
               <p>Operations Manager</p>
@@ -75,12 +76,13 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="team-members-text">
               <img
                 className="img-responsive"
                 src="./assets/driver2.jpeg"
                 alt="driver"
+                data-aos="zoom-in-up"
               />
               <h4>Erika Michaelson</h4>
               <p>Logistics Coordinator</p>
@@ -116,12 +118,13 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="team-members-text">
               <img
                 className="img-responsive"
                 src="./assets/driver3.jpeg"
                 alt="driver"
+                data-aos="zoom-in-up"
               />
               <h4>Bill While</h4>
               <p>Driver</p>
@@ -157,12 +160,13 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="team-members col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="team-members-text">
               <img
                 className="img-responsive"
                 src="./assets/driver4.jpeg"
                 alt="driver"
+                data-aos="zoom-in-up"
               />
               <h4>Jeremy Gregson</h4>
               <p>Driver</p>
