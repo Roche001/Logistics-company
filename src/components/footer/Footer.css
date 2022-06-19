@@ -68,13 +68,10 @@ h6 {
   color: #fff;
   height: 8rem;
 }
-.picture {
-  padding: 2rem;
-}
+
 .information {
   display: flex;
   flex-direction: column;
-  padding: 6rem;
 }
 .information p {
   color: #575757;

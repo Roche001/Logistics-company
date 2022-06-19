@@ -82,33 +82,6 @@ const Footer = () => {
               Team
             </h5>
           </div>
-          <div className="spanner">
-            {" "}
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Price
-            </h5>
-          </div>
-          <div className="spanner">
-            {" "}
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Location
-            </h5>
-          </div>
-          <div className="spanner">
-            {" "}
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              News
-            </h5>
-          </div>
         </div>
 
         <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
