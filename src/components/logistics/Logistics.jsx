@@ -17,8 +17,8 @@ const Logistics = () => {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="logistics-section">
-          <div className="logistics-section-one">
+        <div className="logistics-section row">
+          <div className="logistics-section-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <p>
               Logistics - TransLogic logistics is able to handle your full{" "}
               <br />
@@ -65,15 +65,15 @@ const Logistics = () => {
               </h5>
             </div>
           </div>
-          <div className="logistics-section-one">
+          <div className="logistics-section-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/solutions.jpg" alt="solutions" />
           </div>
         </div>
-        <div className="logistics-section-two">
-          <div className="logistics-section-two-img">
+        <div className="logistics-section-two row">
+          <div className="logistics-section-two-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/warehouse.jpeg" alt="ware" />
           </div>
-          <div className="logistics-section-two-text">
+          <div className="logistics-section-two-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h3>Warehousing and storage</h3>
             <p>
               All of our storage facilities are equipped with climate control{" "}
@@ -88,8 +88,8 @@ const Logistics = () => {
             </small>
           </div>
         </div>
-        <div className="logistics-section-three">
-          <div className="logistics-section-three-text">
+        <div className="logistics-section-three row">
+          <div className="logistics-section-three-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h3>Cargo Insurance</h3>
             <p>
               We provides protection against all risks of physical loss or
@@ -106,7 +106,7 @@ const Logistics = () => {
               but also to cover the risk of unforeseen events.
             </small>
           </div>
-          <div className="logistics-section-three-img">
+          <div className="logistics-section-three-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/semi.jpeg" alt="semi" />
           </div>
         </div>
