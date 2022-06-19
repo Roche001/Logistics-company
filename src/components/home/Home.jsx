@@ -49,7 +49,7 @@ const Home = () => {
 
         <div className="choose-us row container-fluid" text-center>
           <div
-            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 "
+            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 "
             data-aos="fade-up"
           >
             <span>
@@ -60,7 +60,7 @@ const Home = () => {
           </div>
 
           <div
-            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"
+            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
             data-aos="fade-down"
           >
             <span className="img-responsive">
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
 
           <div
-            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"
+            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
             data-aos="fade-up"
           >
             <span className="img-responsive">
@@ -83,7 +83,7 @@ const Home = () => {
           </div>
 
           <div
-            className="choose-a col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"
+            className="choose-a col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
             data-aos="fade-down"
           >
             <span>
