@@ -164,7 +164,7 @@ const Career = () => {
               </p>
               <p>
                 {" "}
-                <MdKeyboardArrowRight />
+                <MdKeyboardArrowRight className="red" />
                 Confident decision-making skills
               </p>
               <a href="button" className="button">
