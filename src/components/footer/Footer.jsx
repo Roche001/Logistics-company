@@ -1,10 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { GiFrayedArrow } from "react-icons/gi";
-import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
-import { FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
