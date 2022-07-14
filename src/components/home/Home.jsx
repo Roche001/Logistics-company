@@ -450,14 +450,13 @@ const Home = () => {
 
               <input type="Email" name="Email" placeholder="Email" required />
               <input type="Phone" name="Phone" placeholder="Phone" required />
-              <TextareaAutosize
-                maxRows={4}
-                aria-label="maximum height"
-                placeholder="Maximum 4 rows"
-                defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua."
-                style={{ width: 200 }}
-              />
+              <textarea
+                name="Message"
+                id="Message"
+                cols="20"
+                rows="2"
+                placeholder="Leave Message"
+              ></textarea>
             </div>
             <div className="button">Send Message</div>
           </div>
@@ -523,13 +522,13 @@ const Home = () => {
                   variant="outlined"
                 />
               </ListItem>
-              <ListItem button>
-                <TextareaAutosize
-                  aria-label="empty textarea"
-                  placeholder="Leave Message"
-                  style={{ width: 245 }}
-                />
-              </ListItem>
+              <textarea
+                name="Message"
+                id="Message"
+                cols="15"
+                rows="2"
+                placeholder="Leave Message"
+              ></textarea>
             </List>
 
             <div className="button">Send Message</div>

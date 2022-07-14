@@ -248,14 +248,12 @@
   border-radius: 0.2rem;
 }
 .input textarea {
-  width: 30rem;
-  margin: 0.5rem;
-  margin: 4rem;
   background-color: #f3f3f3;
 }
 textarea {
   border-radius: 0.25rem;
-  height: 20rem;
+  margin-left: 1rem;
+  border: #191919 0.1rem solid;
 }
 span {
   color: #fff;
