@@ -72,7 +72,7 @@ const Logistics = () => {
             data-aos-duration="2000"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/solutions.jpg"
               alt="solutions"
             />
@@ -86,7 +86,7 @@ const Logistics = () => {
             data-aos-duration="2000"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/warehouse.jpeg"
               alt="ware"
             />
@@ -131,7 +131,7 @@ const Logistics = () => {
             data-aos-duration="2000"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/semi.jpeg"
               alt="semi"
             />
