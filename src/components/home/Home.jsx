@@ -99,14 +99,14 @@ const Home = () => {
           <h4>Our Services</h4>
         </div>
 
-        <div className="service-items container-fluid">
+        <div className="service-items ">
           <div className=" container row">
             <div
               className="services-one col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road1.jpeg"
                 alt="road"
               />
@@ -119,7 +119,7 @@ const Home = () => {
               data-aos="fade-right"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road2.jpeg"
                 alt="road"
               />
@@ -132,7 +132,7 @@ const Home = () => {
               data-aos="fade-right"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road3.jpeg"
                 alt="road"
               />
@@ -145,7 +145,7 @@ const Home = () => {
               data-aos="fade-right"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road4.jpeg"
                 alt="road"
               />
@@ -160,7 +160,7 @@ const Home = () => {
               data-aos="fade-left"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road5.jpeg"
                 alt="road"
               />
@@ -173,7 +173,7 @@ const Home = () => {
               data-aos="fade-left"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road6.jpeg"
                 alt="road"
               />
@@ -186,7 +186,7 @@ const Home = () => {
               data-aos="fade-left"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road7.jpeg"
                 alt="road"
               />
@@ -199,7 +199,7 @@ const Home = () => {
               data-aos="fade-left"
             >
               <img
-                className="img-responsive"
+                className="d-block w-100"
                 src="./assets/road8.jpeg"
                 alt="road"
               />
