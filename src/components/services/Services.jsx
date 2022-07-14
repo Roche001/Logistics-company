@@ -45,7 +45,7 @@ const Services = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/road1.jpeg"
               alt="road"
             />
@@ -92,7 +92,7 @@ const Services = () => {
             data-aos="fade-left"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/road2.jpeg"
               alt="road"
             />
@@ -104,7 +104,7 @@ const Services = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/road3.jpeg"
               alt="road"
             />
@@ -150,7 +150,7 @@ const Services = () => {
             data-aos="fade-left"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/road4.jpeg"
               alt="road"
             />
@@ -162,7 +162,7 @@ const Services = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/road5.jpeg"
               alt="road"
             />
