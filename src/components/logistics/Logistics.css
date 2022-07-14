@@ -28,9 +28,7 @@
   width: 30rem;
   transition: 400ms;
 }
-.logistics-section-one img:hover {
-  transform: scale(1.2);
-}
+
 .logistics-section-one p {
   font-weight: 800;
 }
@@ -48,7 +46,7 @@
 .logistics-section-two {
   margin: 4rem;
   background: #bdbdbd;
-  height: 50vh;
+
   padding: 2rem;
 }
 
@@ -59,16 +57,12 @@
   border-radius: 0.5rem;
   transition: 400ms;
 }
-.logistics-section-two-img img:hover {
-  transform: scale(1.2);
-}
+
 .logistics-section-three-img img {
   border-radius: 0.5rem;
   transition: 400ms;
 }
-.logistics-section-three-img img:hover {
-  transform: scale(1.2);
-}
+
 .logistics-section-three {
   margin: 4rem;
 }
