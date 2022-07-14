@@ -25,8 +25,8 @@
 
 .logistics-section-one img {
   border-radius: 0.5rem;
-  width: 30rem;
   transition: 400ms;
+  height: 25rem;
 }
 
 .logistics-section-one p {
@@ -56,9 +56,11 @@
 .logistics-section-two-img img {
   border-radius: 0.5rem;
   transition: 400ms;
+  height: 20rem;
 }
 
 .logistics-section-three-img img {
+  height: 20rem;
   border-radius: 0.5rem;
   transition: 400ms;
 }
