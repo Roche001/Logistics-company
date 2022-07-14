@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   background: #575757;
-  height: 20vh;
 }
 .reach-out {
   margin: 4rem;
@@ -22,6 +21,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.2rem;
+  margin-bottom: 2rem;
 }
 .us a {
   color: #fff;
