@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { TextField, List, ListItem, TextareaAutosize } from "@mui/material";
+import { TextField, List, ListItem } from "@mui/material";
 
 const Home = () => {
   const [modal, setModal] = useState(false);
