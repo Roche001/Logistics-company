@@ -33,6 +33,7 @@
   transition: 400ms;
   cursor: pointer;
 }
+
 .team-members-social a:hover {
   color: #e53935;
   transform: scale(1.2);
