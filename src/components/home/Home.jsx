@@ -269,11 +269,9 @@ const Home = () => {
             <div className="comment text-center ">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best service there can be
               </p>
             </div>
@@ -300,11 +298,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best service there can be
               </p>
             </div>
@@ -331,11 +327,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best service there can be
               </p>
             </div>
@@ -362,11 +356,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best service there can be
               </p>
             </div>
@@ -393,11 +385,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best service there can be
               </p>
             </div>
@@ -424,11 +414,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing -{" "}
-                <br />
-                the consistency on food and service delivery is to die for-
-                Moseti <br />
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
+                consistency on food and service delivery is to die for- Moseti
                 and Maurice have the best.
               </p>
             </div>
