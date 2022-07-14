@@ -335,7 +335,7 @@ span {
   overflow: hidden;
 }
 .news-container-one img:hover {
-  transform: scale(1.2);
+  transform: scale(0.5);
 }
 .news-container-one h4 {
   cursor: pointer;
