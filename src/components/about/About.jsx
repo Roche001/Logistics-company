@@ -80,7 +80,7 @@ const About = () => {
         <div className="glance-about row">
           <div className="glance-about-img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/logo2.png"
               alt="glance"
             />
