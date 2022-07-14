@@ -256,11 +256,7 @@ const Home = () => {
         >
           <SwiperSlide className="review-box">
             <div className="review-box-img">
-              <img
-                className="img-responsive"
-                src="./assets/tes1.jpeg"
-                alt="r"
-              />
+              <img className="d-block w-100" src="./assets/tes1.jpeg" alt="r" />
             </div>
             <div className="reveiw-box-name">
               <h3>Zana (Alexandra) Moss</h3>

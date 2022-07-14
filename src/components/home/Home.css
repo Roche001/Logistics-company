@@ -250,6 +250,7 @@
 .input textarea {
   width: 30rem;
   margin: 0.5rem;
+  margin: 4rem;
   background-color: #f3f3f3;
 }
 textarea {
