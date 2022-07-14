@@ -253,7 +253,8 @@
   background-color: #f3f3f3;
 }
 textarea {
-  border-radius: 0.2rem;
+  border-radius: 0.25rem;
+  height: 20rem;
 }
 span {
   color: #fff;

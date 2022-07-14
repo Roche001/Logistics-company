@@ -469,8 +469,7 @@ const Home = () => {
               <textarea
                 name="Message"
                 id="Message"
-                cols="20"
-                rows="4"
+                rows="8"
                 placeholder="Leave Message"
               ></textarea>
             </div>
