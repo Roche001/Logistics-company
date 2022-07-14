@@ -36,6 +36,7 @@
   text-align: center;
   transition: 400ms;
   border: 2px #000 solid;
+  text-decoration: none;
 }
 .call-two:hover {
   background: #9e9e9e;
@@ -47,6 +48,7 @@
   font-weight: 500;
   font-size: 1rem;
   transition: 400ms;
+  text-decoration: none;
 }
 .call-two a:hover {
   color: #fff;
@@ -66,4 +68,5 @@
 }
 .call-three a {
   color: #fff;
+  text-decoration: none;
 }
