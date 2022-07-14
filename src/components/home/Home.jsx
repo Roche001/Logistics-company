@@ -450,12 +450,14 @@ const Home = () => {
 
               <input type="Email" name="Email" placeholder="Email" required />
               <input type="Phone" name="Phone" placeholder="Phone" required />
-              <textarea
-                name="Message"
-                id="Message"
-                rows="8"
-                placeholder="Leave Message"
-              ></textarea>
+              <TextareaAutosize
+                maxRows={4}
+                aria-label="maximum height"
+                placeholder="Maximum 4 rows"
+                defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua."
+                style={{ width: 200 }}
+              />
             </div>
             <div className="button">Send Message</div>
           </div>
