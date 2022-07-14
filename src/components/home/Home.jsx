@@ -470,7 +470,7 @@ const Home = () => {
                 name="Message"
                 id="Message"
                 cols="20"
-                rows="2"
+                rows="4"
                 placeholder="Leave Message"
               ></textarea>
             </div>

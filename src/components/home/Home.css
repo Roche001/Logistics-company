@@ -252,6 +252,9 @@
   margin: 0.5rem;
   background-color: #f3f3f3;
 }
+textarea {
+  border-radius: 0.2rem;
+}
 span {
   color: #fff;
   font-size: 1.5rem;
