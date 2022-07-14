@@ -93,7 +93,7 @@ const Services = () => {
           >
             <img
               className="d-block w-100"
-              src="./assets/road2.jpeg"
+              src="./assets/Instagram.jpeg"
               alt="road"
             />
           </div>
