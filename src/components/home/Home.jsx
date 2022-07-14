@@ -550,7 +550,7 @@ const Home = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/Scania.jpeg"
               alt="Lorry"
             />
@@ -566,7 +566,7 @@ const Home = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/Scania2.jpeg"
               alt="Lorry"
             />
@@ -582,7 +582,7 @@ const Home = () => {
             data-aos="fade-right"
           >
             <img
-              className="img-responsive"
+              className="d-block w-100"
               src="./assets/Scania3.jpeg"
               alt="Lorry"
             />
