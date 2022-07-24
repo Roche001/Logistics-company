@@ -32,14 +32,17 @@ const Career = () => {
           <div className="career-options-one row">
             <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Infrastructure Project Manager</h4>
-              <p>
-                We are seeking a smart, organized, and personable leader
-                <br /> who thrives in a fast-paced environment. As a Project
-                <br />
-                Analyst in the IT department you will be responsible for
-                <br /> planning and executing projects for our infrastructure
-                teams.
-              </p>
+              <ul>
+                <li>
+                  <p>
+                    We are seeking a smart, organized, and personable leader who
+                    thrives in a fast-paced environment. As a Project Analyst in
+                    the IT department you will be responsible for planning and
+                    executing projects for our infrastructure teams.
+                  </p>
+                </li>
+              </ul>
+
               <a href="button" className="button">
                 Send Resume
               </a>
@@ -68,16 +71,20 @@ const Career = () => {
           <div className="career-options-one row">
             <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Service Desk Analyst</h4>
-              <p>
-                The Service Desk Analyst provides first level technical <br />
-                support for incidents and requests reported to the IT <br />
-                service desk. Responsibilities include initial assessment,
-                <br /> triage, research, and resolution of first level cases;
-                commonly <br />
-                regarding the use of application software products and/or
-                <br />
-                infrastructure components.
-              </p>
+              <ul>
+                <li>
+                  {" "}
+                  <p>
+                    The Service Desk Analyst provides first level technical{" "}
+                    support for incidents and requests reported to the IT
+                    service desk. Responsibilities include initial assessment,
+                    triage, research, and resolution of first level cases;
+                    commonly regarding the use of application software products
+                    and/or infrastructure components.
+                  </p>
+                </li>
+              </ul>
+
               <a href="button" className="button">
                 Send Resume
               </a>
@@ -106,21 +113,33 @@ const Career = () => {
           <div className="career-options-one row">
             <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <h4>Compensation Manager</h4>
-              <h5>Experience and Skills</h5>
-              <p>
-                <MdKeyboardArrowRight className="red" />
-                Bachelor’s degree in Business, Human Resources, or a related
-                field.
-              </p>
-              <p>
-                <MdKeyboardArrowRight className="red" />7 years’ compensation
-                management experience in a sales focused organization.
-              </p>
-              <p>
-                <MdKeyboardArrowRight className="red" />
-                Proven experience writing and implementing successful
-                compensation programs.
-              </p>
+              <h4>Experience and Skills</h4>
+              <ul>
+                <li>
+                  <p>
+                    <MdKeyboardArrowRight className="red" />
+                    Bachelor’s degree in Business, Human Resources, or a related
+                    field.
+                  </p>
+                </li>
+                <li>
+                  {" "}
+                  <p>
+                    <MdKeyboardArrowRight className="red" />7 years’
+                    compensation management experience in a sales focused
+                    organization.
+                  </p>
+                </li>
+                <li>
+                  {" "}
+                  <p>
+                    <MdKeyboardArrowRight className="red" />
+                    Proven experience writing and implementing successful
+                    compensation programs.
+                  </p>
+                </li>
+              </ul>
+
               <a href="button" className="button">
                 Send Resume
               </a>
@@ -150,23 +169,36 @@ const Career = () => {
             <div className="career-options-one-text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h4>Business Development Representative</h4>
               <h5>Experience and Skills</h5>
-              <p>
-                <MdKeyboardArrowRight className="red" />
-                2-3 years of selling and account management experience
-              </p>
-              <p>
-                <MdKeyboardArrowRight className="red" />
-                Strong work ethic, self-motivation, and sales drive
-              </p>
-              <p>
-                <MdKeyboardArrowRight className="red" />
-                Ability to maintain composure in stressful situations
-              </p>
-              <p>
-                {" "}
-                <MdKeyboardArrowRight className="red" />
-                Confident decision-making skills
-              </p>
+              <ul>
+                <li>
+                  {" "}
+                  <p>
+                    <MdKeyboardArrowRight className="red" />
+                    2-3 years of selling and account management experience
+                  </p>
+                </li>
+                <li>
+                  {" "}
+                  <p>
+                    <MdKeyboardArrowRight className="red" />
+                    Strong work ethic, self-motivation, and sales drive
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <MdKeyboardArrowRight className="red" />
+                    Ability to maintain composure in stressful situations
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    {" "}
+                    <MdKeyboardArrowRight className="red" />
+                    Confident decision-making skills
+                  </p>
+                </li>
+              </ul>
+
               <a href="button" className="button">
                 Send Resume
               </a>
