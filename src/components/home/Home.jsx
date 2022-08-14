@@ -434,33 +434,8 @@ const Home = () => {
             Define your own success with a career at Andelles Logistics
             Solutions{" "}
           </p>
-          <button onClick={toggleModal} className="button">
-            Find Your Job
-          </button>
+          <button className="button">Find Your Job</button>
         </div>
-        {modal && (
-          <div className="modal">
-            <div className="overlay"></div>
-            <span onClick={toggleModal}>
-              <AiFillCloseCircle />
-            </span>
-            <h4>Want to Get a Free Consultation? Send us a request.</h4>
-            <div className="input">
-              <input type="Name" name="Name" placeholder="Name" required />
-
-              <input type="Email" name="Email" placeholder="Email" required />
-              <input type="Phone" name="Phone" placeholder="Phone" required />
-              <textarea
-                name="Message"
-                id="Message"
-                cols="20"
-                rows="2"
-                placeholder="Leave Message"
-              ></textarea>
-            </div>
-            <div className="button">Send Message</div>
-          </div>
-        )}
       </div>
       <div className="find container-fluid">
         <div className="row">
