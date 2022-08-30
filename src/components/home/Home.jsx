@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import { ImRocket } from "react-icons/im";
 import { RiCustomerServiceFill } from "react-icons/ri";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { RiPriceTagFill } from "react-icons/ri";
 import { GrStar } from "react-icons/gr";
-import { AiFillCloseCircle } from "react-icons/ai";
+
 import { MdPhone } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import { MdOutlineTimerOff } from "react-icons/md";
@@ -19,10 +19,6 @@ import "aos/dist/aos.css";
 import { TextField, List, ListItem } from "@mui/material";
 
 const Home = () => {
-  const [modal, setModal] = useState(false);
-  const toggleModal = () => {
-    setModal(!modal);
-  };
   AOS.init({
     duration: 2000,
   });

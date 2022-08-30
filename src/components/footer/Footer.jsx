@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { GiFrayedArrow } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -25,59 +26,55 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-          <h4>Information</h4>
-          <div className="spanner">
+        <div className="information-one col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+          <Link to="/" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               Home
             </h5>
-          </div>
-          <div className="spanner">
+          </Link>
+          <Link to="/About" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               About
             </h5>
-          </div>
-          <div className="spanner">
+          </Link>
+          <Link to="/Services" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               Services
             </h5>
-          </div>
-          <div className="spanner">
-            {" "}
+          </Link>
+          <Link to="/Logistics" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               Logistics
             </h5>
-          </div>
-          <div className="spanner">
-            {" "}
+          </Link>
+          <Link to="/Career" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               Career
             </h5>
-          </div>
-          <div className="spanner">
-            {" "}
+          </Link>
+          <Link to="/Team" className="link">
             <h5>
               <span>
                 <GiFrayedArrow />
               </span>
               Team
             </h5>
-          </div>
+          </Link>
         </div>
 
         <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
