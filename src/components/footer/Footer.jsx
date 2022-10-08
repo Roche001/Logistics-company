@@ -26,56 +26,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="information-one col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
-          <Link to="/" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Home
-            </h5>
-          </Link>
-          <Link to="/About" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              About
-            </h5>
-          </Link>
-          <Link to="/Services" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Services
-            </h5>
-          </Link>
-          <Link to="/Logistics" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Logistics
-            </h5>
-          </Link>
-          <Link to="/Career" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Career
-            </h5>
-          </Link>
-          <Link to="/Team" className="link">
-            <h5>
-              <span>
-                <GiFrayedArrow />
-              </span>
-              Team
-            </h5>
-          </Link>
-        </div>
 
         <div className="information col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
           <div className="phone-number">
