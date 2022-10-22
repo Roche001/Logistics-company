@@ -1,7 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { GiFrayedArrow } from "react-icons/gi";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
